@@ -139,7 +139,8 @@ rm(temp, this)
 
 
 ```{r Prepare regional plot, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
-fit_span = ifelse(baseline_years == 1, .15, .09)
+fit_span = 0.115 # final point is influenced by the 3 weeks prior
+# fit_span = ifelse(baseline_years == 1, .15, .09)
 
 # Generate the loess smooth for the regional data
 fit <- loess(log(avg_7d_covid_conc) ~ as.numeric(date),
