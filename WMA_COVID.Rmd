@@ -1,6 +1,6 @@
 ---
 title: "COVID Wastewater Surveillance for Western Massachusetts"
-subtitle: "Regional, County, and Sewer Level COVID Wastewater Concentration"
+subtitle: "Regional, County, and Sewer-system Level COVID Wastewater Concentration"
 output:
   html_document:
     df_print: paged
@@ -191,20 +191,15 @@ subtitle <- paste0("From ", min(dfnew$date), " to ", max(dfnew$date),
                    "\nCurrent WVA score: ",  dfnew %>% arrange(date) %>% pull(wva_score) %>%  last() %>% as.character())
 cat(subtitle)
 ```
-```{r Plot region, echo=FALSE, fig.height=4, fig.width=8, message=FALSE, warning=FALSE}
+```{r Make caption, echo=FALSE, warning=FALSE, comment=NA}
+sewer_num <- length(weighted %>% pull(location_sample) %>% unique())
+
+```{r Plot region, fig.cap = paste0("The above figure shows the regional wastewater COVID concentration for ", sewer_num, " sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. The trend line is a smoothed conditional mean and each point is an individual system report. Trend line and individual reports are each weighted by population and reporting interval. WVA levels were calculated using the CDC methodology, except the (", baseline_years, " year) baseline is updated each time the WVA is calculated."), echo=FALSE, fig.height=4, fig.width=8, message=FALSE, warning=FALSE}
  
 plot(region)
 ```
 
-```{r Display caption info, echo=FALSE, warning=FALSE, comment=NA}
-sewer_num <- length(weighted %>% pull(location_sample) %>% unique())
-caption_reg <- paste0("The above figure shows the regional wastewater COVID concentration for ", 
-           sewer_num, 
-           " sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. The trend line is a smoothed conditional mean. Each point is an individual system report. Both are weighted by population and reporting interval. WVA levels were calculated using the CDC methodology, except the (",
-           baseline_years, 
-           " year) baseline is updated each time the WVA is calculated.")
-cat(caption_reg)
-```
+
  <font size="4">County-level Concentration</font>
 ```{r Prepare county plot, echo=FALSE, warning=FALSE}
 counties <- 
@@ -227,14 +222,8 @@ counties <-
   theme(plot.caption = element_text(hjust = 0, size=8))  # set the left align here
 
 ```
-```{r Plot counties, echo=FALSE, fig.height=7, fig.width=6, message=FALSE, warning=FALSE}
+```{r Plot counties, echo=FALSE, fig.height=7, fig.width=6, message=FALSE, warning=FALSE, fig.cap = paste0("The above figure shows the county-level wastewater COVID concentration for ", sewer_num, " sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. The trend line is a smoothed conditional mean, weighted by population and reporting interval. Each point is an individual system report.")}
 plot(counties)
-```
-```{r Caption for county plot, echo=FALSE, message=FALSE, warning=FALSE, comment=NA}
-caption_count <- paste0("The above figure shows the county-level wastewater COVID concentration for ", 
-           sewer_num, 
-           " sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. The trend line is a smoothed conditional mean, weighted by population and reporting interval. Each point is an individual system report.")
-cat(caption_count)
 ```
 
 
@@ -275,17 +264,13 @@ systems <-
   theme(plot.caption = element_text(hjust = 0, size=8))  # set the left align here
 ```
  <font size="4">Concentration for Individual Sewer Systems</font>
-```{r Systems plot, echo=FALSE, message=FALSE, warning=FALSE}
+```{r Systems plot, echo=FALSE, message=FALSE, warning=FALSE, fig.cap = paste0("The above figure shows reported concentration data from individual systems, with linear interpolation between reports of varying frequency. Gaps of longer than one week are not interpolated. Blue annotations indicate date of last data reported.")}
 plot(systems)
 ```
 
-```{r Caption for systems plot, echo=FALSE, message=TRUE, warning=TRUE, comment=NA}
-caption_syst <- paste0("The above figure shows reported concentration data from individual systems, with linear interpolation between reports of varying frequency. Gaps of longer than one week are not interpolated. Blue annotations indicate date of last data reported.")
-cat(caption_syst)
-```
  <font size="3">**Data Sources**</font>  
-• CDC methodology: [https://www.cdc.gov/nwss/about-data.html#data-method]  
-• Wastewater data access: [https://www.mass.gov/info-details/wastewater-surveillance-reporting]  
+• CDC methodology: https://www.cdc.gov/nwss/about-data.html#data-method  
+• Wastewater data access: https://www.mass.gov/info-details/wastewater-surveillance-reporting  
 • Population weights are from various sources (EPA estimates whenever available).  
 <br>  
 <br>  
