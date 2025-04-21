@@ -1,12 +1,12 @@
 ---
 title: "COVID Wastewater Surveillance for Western Massachusetts"
-subtitle: "Regional, County, and Sewer-system Level COVID Wastewater Concentration"
 output:
   html_document:
     df_print: paged
 ---
 
 ```{r Setup, echo=FALSE, message=FALSE, warning=FALSE}
+
 ```
 
 ```{r Download and process, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
@@ -18,11 +18,9 @@ library(scales)
 library(patchwork)
 library(readxl)
 library(ggtext)
-here()
 options(scipen = 999)
 source("wva_calculator.R")
-
-baseline_years <- 1 ### set the interval dude
+source("mytheme.R")
 
 ### Download and initial cleaning ----
 
@@ -47,7 +45,7 @@ raw_sample_arch <-
   write_csv(paste0(here("data_downloads", paste0(Sys.Date(), "_sample_arch.csv"))))
 
 weights <- read.csv("better_pop_weights_Aug2024.csv") %>%
-  select(-mgd) %>% rename(pop_weight = users, location_sample = system) %>% 
+  select(-mgd) %>% rename(pop_weight = users) %>% 
   mutate(pop_weight = as.numeric(pop_weight))
 
 wmass_counties <- c("Hampden", "Franklin", "Hampshire", "Berkshire")
@@ -55,7 +53,10 @@ nvalley_counties <- c("Franklin", "Hampshire")
 svalley_counties <- c("Hampden", "Hampshire")
 berkshire <- "Berkshire"
 
+### Set time parameter
+time_years = 1
 
+### Prepare the data
 full_sample <-
   # combine archive and current data
   bind_rows(raw_sample_arch %>% 
@@ -66,7 +67,7 @@ full_sample <-
     "avg_7d_covid_conc" = '7_day_average_of_sars-cov-2_concentration',
     "county" = county_of_sampling_location,
     "city_sample" = city_of_sampling_location,
-    "location_sample" = name_of_sampling_location) %>%
+    "system" = name_of_sampling_location) %>%
   # convert to copies / mL
   mutate(avg_7d_covid_conc = avg_7d_covid_conc/1000) %>% 
   # modify for log-scale axis display by adding small constant to zero values
@@ -77,87 +78,54 @@ full_sample <-
   relocate(date) %>% relocate(city_sample, .after = date) %>% relocate(county, .after = date) %>%
   # shift to uniform lower case
   mutate(city_sample = str_to_lower(city_sample),
-         # create lowercase version of location_sample for easy join to pop weights
-         weights_id = str_to_lower(location_sample)) %>%
-  ### add in weekly simplified date
-  mutate(year = year(date), week = week(date)-1,
-         date_week = as.Date(paste(year, week, 1, sep="-"), format = , "%Y-%U-%u")) %>%
-  relocate(date_week, .after=date) %>% 
+         # create lowercase version of system for easy join to pop weights
+         weights_id = str_to_lower(system)) %>%
   # add geographical groupings
   mutate(
-    w_mass = county %in% wmass_counties,
-    n_valley = county %in% nvalley_counties,
-    s_valley = county %in% svalley_counties) %>%
+    wmass = county %in% wmass_counties,
+    nvalley = county %in% nvalley_counties,
+    svalley = county %in% svalley_counties) %>%
   # remove extraneous columns
-  select(date, date_week, county, location_sample, avg_7d_covid_conc, weights_id, w_mass, n_valley, s_valley) %>%
+  select(date, county, system, avg_7d_covid_conc, weights_id, wmass, nvalley, svalley) %>%
   # add population weights
-  left_join(weights, by = join_by(weights_id == location_sample)) %>%
-  select(-weights_id)
-
-### population-day weighting for regional smooth
-# Identify gaps for the system-level interpolations
-weighted <- 
-  full_sample %>% filter(date > max(date) - years(baseline_years) & w_mass) %>%
+  left_join(weights, by = join_by(weights_id == system)) %>%
+  select(-weights_id) %>%
   # calculate population-days as weights for loess fit
-  # first calculate interval i.e. days til next report for that location
-  arrange(date, .by=location_sample) %>%
+  # first calculate reporting interval i.e. days til next report for that location
+  arrange(date, .by=system) %>%
   mutate(
-    interval = ((lead(date, default = max(date)+ddays(1)))-date)/ddays(1), .by=location_sample,
+    interval = ((lead(date, default = max(date)+ddays(1)))-date)/ddays(1), .by=system,
     # interval multiplier floor is at 0.5 (for the max of 2 entries in a single day
     # ceiling is at 7, so as to not over-weight systems that miss time
-    pop_day = pop_weight * (min(interval, 7) %>% max(0.5)),
-    ## label runs between gaps
+    pop_day = pop_weight * (min(interval, 7) %>% max(0.5))) %>%
+  ## label runs between gaps for each system
+  group_by(system) %>%
+  mutate(
     gap = if_else(date > dplyr::lag(date, default=lubridate::origin)+dweeks(2), 1, 0),
     run=cumsum(gap),
-    gap=NULL, 
-    interp_group = paste0(location_sample, "_", run)) %>%
-    arrange(location_sample, date) 
+    gap=NULL,
+    smooth_group = paste0(system, "_", run)) %>% ungroup() %>%
+  arrange(system, date) 
 
-### Create interpolations for individual systems (acknowledging interruptions of more than 1 week) 
-  # https://www.spsanderson.com/steveondata/posts/2023-08-17/index.html
+# save(full_sample, weights, file="current.Rda")
 
-# identify site-run combinations to interpolate for
-igroup <- unique(weighted$interp_group)
-# define the timeline for interpolation
-xout <- seq(min(weighted$date), max(weighted$date), by = "+1 day")
-# create the data.frame to hold the interpolations
-interp <- data.frame(date = NA, location_sample = NA, run = NA, ww_interp = NA, pop_weight = NA)[-1,]
-# cycle through the site-run combinations
-for (i in seq_along(igroup)){
-  this <- weighted %>% filter(interp_group == igroup[i])
-  xout_trim <- pmin(xout, max(this$date)) %>% pmax(., min(this$date)) %>% unique()
-  y_smooth <- approx(this$date, this$avg_7d_covid_conc, 
-                     ties = mean,
-                     xout = xout_trim)$y
-  temp = data.frame(date = xout_trim, interp_group = igroup[i], ww_interp = y_smooth, 
-                    pop_weight = rep(first(this$pop_weight), length(xout_trim))) %>%
-    separate(interp_group, "_", into=c("location_sample", "run"))
-  interp <- rbind(interp, temp) %>% distinct()
-} 
-rm(temp, this)
+wva_pal <- c("#49a667", "#b6c459", "#8fa1ef", "#fdae61", "#f45489")
+time_years = 1
+
+### -----
+
+### Load data ----
+# load("current.Rda")
+
 ```
 
 
 ```{r Prepare regional plot, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
-fit_span = 0.115 # final point is influenced by the 3 weeks prior
-# fit_span = ifelse(baseline_years == 1, .15, .09)
-
-# Generate the loess smooth for the regional data
-fit <- loess(log(avg_7d_covid_conc) ~ as.numeric(date),
-             span=fit_span,
-             data= weighted,
-             weights = pop_day)
-dfnew <- weighted
-smooth <- predict(fit, newdata = dfnew, se=T)
-dfnew$y_smoothed <- exp(smooth[[1]])
-dfnew$se <- exp(smooth[[2]])
-dfnew$se_low <- exp(log(dfnew$y_smoothed) - 1.96 * log(dfnew$se))
-dfnew$se_high <- exp(log(dfnew$y_smoothed) + 1.96 * log(dfnew$se))
-### get wva levels
-dfnew$wva_lvl <- cdc_wva(dfnew$y_smoothed)
-dfnew$wva_house <- wva_2_is_low(dfnew$y_smoothed)
-dfnew$wva_score <- round(wva_raw(dfnew$y_smoothed), 1)
-dfnew$wva_point <- cdc_wva(dfnew$avg_7d_covid_conc)
+# Generate smooth and wvas
+# smooth_operator automaticaly filters for western mass
+# we can customize that for future iterations
+dfreg <- smooth_operator(full_sample, time_years=1)
+thresholds_reg <- wtd_ww_threshold_breaks(dfreg$avg_7d_covid_conc, wts=dfreg$pop_day)
 
 ```
 
@@ -165,107 +133,168 @@ dfnew$wva_point <- cdc_wva(dfnew$avg_7d_covid_conc)
 ```{r Construct regional plot, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
 ### construct regional plot
 region <- 
-  dfnew %>%
+  dfreg %>%
   ggplot() +
+  geom_hline(yintercept = thresholds_reg[2:5], color="grey50", linetype="dotted") +
   geom_point(aes(date, avg_7d_covid_conc, size=pop_day, color=wva_point), alpha=.35) +
   geom_line(aes(date,  y_smoothed, group=1), color="darkblue", linewidth=1.25) +
   scale_y_log10(limits = c(10, 8000)) + 
+  scale_color_manual(values = wva_pal) +
     labs(x = "Date",
          y = "7-day COVID Concentration (copies/mL)",
          color= "Wastewater Viral\nActivity Level") +
-         # title=title,
-         # subtitle=subtitle,
-         # caption=caption) +
     guides(color = guide_legend(reverse=TRUE, override.aes = list(alpha = 1)),
            fill = guide_legend(reverse=TRUE),
            size="none") +
-  # theme_minimal() + 
-    theme(plot.caption = element_text(size = 8, hjust = 0))  # set the left align here
+  mytheme()
+
+plot_title_reg <- ifelse(time_years == 1, 
+                     paste0("wma_wastewater_", max(dfreg$date), "_region",  ".tiff"), 
+                     paste0("wma_wastewater_", max(dfreg$date), "_region_", time_years, "YEAR.tiff"))
+
+width <- ifelse(time_years == 1, 2100, 3300)
+height <- 1900
+
+ggsave(region, path = here("plots/"), filename = plot_title_reg,
+       width = width, height = height, units = "px", bg="white")
 ```
  
  
- <font size="4">Regional Concentration and Wastewater Viral Activity Levels</font>
+ <font size="5">Regional Concentration and Wastewater Viral Activity Level</font>
 ```{r Display summary message, echo=FALSE, message=FALSE, warning=FALSE, comment=NA}
-subtitle <- paste0("From ", min(dfnew$date), " to ", max(dfnew$date),
-                   "\nCurrent WVA level: ",  dfnew %>% arrange(date) %>% pull(wva_lvl) %>%  last() %>% as.character(),
-                   "\nCurrent WVA score: ",  dfnew %>% arrange(date) %>% pull(wva_score) %>%  last() %>% as.character())
+subtitle <- paste0("From ", min(dfreg$date), " to ", max(dfreg$date),
+                   "\nCurrent WVA level: ",  dfreg %>% arrange(date) %>% pull(wva_lvl) %>%  last() %>% as.character(),
+                   "\nCurrent WVA score: ",  dfreg %>% arrange(date) %>% pull(wva_score) %>%  last() %>% as.character())
 cat(subtitle)
 ```
-```{r Make caption, echo=FALSE, warning=FALSE, comment=NA}
-sewer_num <- length(weighted %>% pull(location_sample) %>% unique())
+```{r Define sewer number, echo=FALSE, warning=FALSE, comment=NA}
+sewer_num <- length(dfreg %>% pull(system) %>% unique())
+```
 
-```{r Plot region, fig.cap = paste0("The above figure shows the regional wastewater COVID concentration for ", sewer_num, " sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. The trend line is a smoothed conditional mean and each point is an individual system report. Trend line and individual reports are each weighted by population and reporting interval. WVA levels were calculated using the CDC methodology, except the (", baseline_years, " year) baseline is updated each time the WVA is calculated."), echo=FALSE, fig.height=4, fig.width=8, message=FALSE, warning=FALSE}
- 
+
+```{r Plot region, echo=FALSE, message=F, fig.height=4, fig.width=8, message=FALSE, warning=FALSE, fig.cap=sprintf("The above figure shows the regional wastewater COVID concentration for %d sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. The trend line is a smoothed conditional mean and each point is an individual system report. Trend line and individual reports are each weighted by population and reporting interval. WVA levels were calculated using the CDC methodology, except the (%d year) baseline is updated each time the WVA is calculated.", sewer_num, time_years)}
 plot(region)
 ```
 
 
- <font size="4">County-level Concentration</font>
+ <font size="5">County-level Concentration and Wastewater Viral Activity Level</font>
 ```{r Prepare county plot, echo=FALSE, warning=FALSE}
-counties <- 
-  weighted %>%
-  mutate(county = 
-           factor(county, levels = rev(c("Hampden", "Hampshire", "Franklin", "Berkshire")))) %>%
+counties <- full_sample %>% filter(date > max(date) - years(time_years) & wmass) %>% pull(county) %>% unique()
+
+# create the data.frame to hold the county smooths
+dfcount <- data.frame(matrix(ncol = ncol(full_sample)))[-1,]
+colnames(dfcount) <- names(full_sample)
+summ <- data.frame(county = NA, note = NA)[-1,]
+# loop through counties
+for (i in seq_along(counties)){
+  # create smooths
+  temp <- smooth_operator(full_sample %>% filter(county == counties[i]), time_years=1)
+  dfcount <- rbind(dfcount, temp)
+  # create summary annotations
+  tempnote <- data.frame(county = counties[i], 
+                         note = paste0(max(temp$date),"\nWVA level: ",  temp %>% arrange(date) %>% pull(wva_lvl) %>%  last() %>% as.character(),"\nWVA score: ",  temp %>% arrange(date) %>% pull(wva_score) %>%  last() %>% as.character()))
+  summ <- rbind(summ, tempnote)
+  # create dataframe of thresholds to pass to hline
+}
+# add xy coordinates to annotations
+summ$x <- min(temp$date)
+summ$y <- 11
+
+#### county plot ----
+county_plot <-
+dfcount %>% 
   ggplot() +
-  geom_point(aes(date, avg_7d_covid_conc), alpha=.4, size=.6) +
-  geom_smooth(aes(date,  avg_7d_covid_conc, weight = pop_day), method = "loess", span=.15,
-              linewidth=1, color="blue") + 
+  geom_point(aes(date, avg_7d_covid_conc, size=pop_day, color=wva_point), alpha=.35) +
+  geom_line(aes(date,  y_smoothed, group=1), color="darkblue", linewidth=1.15) +
   scale_y_log10(limits = c(10, 8000)) + 
-  labs(x = "Date",
-       y = "7-day COVID Concentration (copies/mL)") +
-  guides(color = "none",
-         fill =  "none",
+  scale_color_manual(values = wva_pal) +
+  guides(color = guide_legend(reverse=TRUE, override.aes = list(alpha = 1)),
+         fill = guide_legend(reverse=TRUE),
          size="none") +
-  # theme(text = element_text(size = 10)) +
-  facet_wrap(~county, ncol=1) +
-  scale_x_date(date_labels = "%b\n%Y") + 
-  theme(plot.caption = element_text(hjust = 0, size=8))  # set the left align here
+  labs(x = "Date",
+       y = "7-day COVID Concentration (copies/mL)",
+       color= "Wastewater Viral\nActivity Level") +
+  geom_label(data = summ,
+             aes(x=x, y=y, label = note), color="blue", hjust=0,vjust=0,
+             size=2.5) + 
+  mytheme() + # set the left align here +
+  theme(plot.title = element_text(size=12)) +
+  facet_wrap(~county, ncol=2)
+
+plot_title_count <- paste0("wma_wastewater_", max(dfreg$date), "_counties", ".tiff")
+width = 1992*1.25
+height = 1200*1.25
+
+ggsave(county_plot, path = here("plots/"), filename = plot_title_count,
+       width = width, height = height, units = "px", bg="white")
 
 ```
-```{r Plot counties, echo=FALSE, fig.height=7, fig.width=6, message=FALSE, warning=FALSE, fig.cap = paste0("The above figure shows the county-level wastewater COVID concentration for ", sewer_num, " sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. The trend line is a smoothed conditional mean, weighted by population and reporting interval. Each point is an individual system report.")}
-plot(counties)
+```{r Plot counties, echo=FALSE, fig.height=6.25, fig.width=10, message=FALSE, warning=FALSE, fig.cap = paste0("County-level wastewater COVID concentration for ", sewer_num, " sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. Trend line is smoothed conditional mean, points are individual system reports. Both are weighted by population and reporting interval.")}
+plot(county_plot)
 ```
 
 
 ```{r Prepare Systems Plot, echo=FALSE, message=FALSE, warning=FALSE}
-for_systems <-
-  interp %>% arrange(date) %>%
-  left_join(weighted %>% select(location_sample, county) %>% distinct()) %>%
-  mutate(county = 
-           factor(county, levels = rev(c("Hampden", "Hampshire", "Franklin", "Berkshire"))),
-         title = factor(paste0(
-           location_sample, "\n", county, " County", "\n~", 
-           prettyNum(round(pop_weight, digits=-1),big.mark=","), " served")),
-         ww_interp = pmax(1, ww_interp))
+# title_sys <- "Wastewater COVID Concentration for Sewer Systems in Western MA"
+# subtitle_sys <- paste0(min(dfreg$date), " to ", max(dfreg$date))
+# caption_sys <- "Trend line is smoothed conditional mean, points are individual system reports. Both are weighted by population and reporting interval.\nBe careful out there <3 western.ma.covid.data@gmail.com"
 
-systems <- 
-  for_systems %>%
-  ggplot(aes(date, ww_interp, group=run)) +
-  geom_line(linewidth = .35) +
-  facet_wrap(~fct_reorder(title, as.numeric(county)))+
-  # scale_y_log10(limits = c(10, 11000)) + 
-  scale_y_log10() + 
-  scale_x_date(date_labels = "%b\n%y") +
+smooth_groups <- full_sample %>% 
+  filter(date > max(date) - months(6) & wmass) %>% select(system, group=smooth_group) %>% unique()
+
+# create the data.frame to hold the system smooths
+dfsys <- data.frame(matrix(ncol = ncol(full_sample)))[-1,]
+colnames(dfsys) <- names(full_sample)
+summ_temp <- data.frame(max_date = NA, system = NA, smooth_group = NA, note = NA)[-1,]
+# loop through counties
+for (i in seq_along(smooth_groups$group)){
+  # create smooths
+  temp <- smooth_operator(full_sample %>% filter(date > max(date) - years(time_years)) %>% filter(smooth_group == smooth_groups$group[i]), time_years=1)
+  # qc <- temp %>% select(date, smooth_group)
+  dfsys <- rbind(dfsys, temp)
+  # create summary annotations by system
+  tempnote <- data.frame(max_date = max(temp$date),
+                         system = smooth_groups$system[i], 
+                         smooth_group = smooth_groups$group[i],
+                         note = 
+                           paste0(max(temp$date),"\nWVA level: ",  
+                                  temp %>% arrange(date) %>% pull(wva_lvl) %>%  last() %>% as.character(),"\nWVA score: ",  temp %>% arrange(date) %>% pull(wva_score) %>%  last() %>% as.character()))
+  summ_temp <- rbind(summ_temp, tempnote)
+  # create dataframe of thresholds to pass to hline
+}
+# extract most recent system level information (discarding update from older runs)
+summ <- summ_temp %>% group_by(system) %>% slice_max(max_date, n=1)
+
+#add xy coordinates to annotations
+summ$x <- min(full_sample %>% 
+                filter(date > max(date) - years(time_years) & wmass) %>% pull(date))
+summ$y <- 11
+
+#### systems plot ----
+systems_plot <- 
+  dfsys %>% 
+  ggplot() +
+  geom_line(aes(date,  y_smoothed, group=smooth_group), color="darkblue", linewidth=1.1) +
+  geom_point(aes(date, avg_7d_covid_conc, color=wva_point), alpha=.35) +
+  scale_y_log10(limits = c(10, 8000)) + 
+  scale_color_manual(values = wva_pal) +
+  guides(color = guide_legend(reverse=TRUE, override.aes = list(alpha = 1)),
+         fill = guide_legend(reverse=TRUE),
+         size="none") +
   labs(x = "Date",
-       y = "7-day COVID Concentration (copies/mL)") +
-  theme(strip.text.x = element_text(size = 8)) +
-  #label last point with date
-  geom_point(data = filter(for_systems, date == max(date), .by=title), color = "blue", alpha=.5) + 
-  geom_segment(data = 
-                 for_systems %>% mutate(max_date = max(date)) %>%
-                 filter(date == max(date), .by=title),
-               aes(xend = max(date) - dweeks(1), yend = 11),
-               color = "blue", alpha=.5) +
-  geom_label(data = 
-               for_systems %>% mutate(x = max(date), y = 11) %>%
-               filter(date == max(date), .by=title), 
-            aes(x=x, y=y, label = date), color="blue", hjust=.9,vjust=0,
-            size=2.5) + 
-  theme(plot.caption = element_text(hjust = 0, size=8))  # set the left align here
+       y = "7-day COVID Concentration (copies/mL)",
+       color= "Wastewater Viral\nActivity Level") +
+  geom_label(data = summ,
+             aes(x=x, y=y, label = note), color="blue", hjust=0,vjust=0,
+             size=2.5) + 
+  mytheme() + 
+  theme(plot.title = element_text(size=12)) +
+  facet_wrap(~system, ncol=3) +
+    scale_x_date(date_labels = "%b\n%Y")
 ```
- <font size="4">Concentration for Individual Sewer Systems</font>
-```{r Systems plot, echo=FALSE, message=FALSE, warning=FALSE, fig.cap = paste0("The above figure shows reported concentration data from individual systems, with linear interpolation between reports of varying frequency. Gaps of longer than one week are not interpolated. Blue annotations indicate date of last data reported.")}
-plot(systems)
+ <font size="5">Concentration for Individual Sewer Systems and Wastewater Viral Activity Level</font>
+```{r Systems plot, echo=FALSE, message=FALSE, warning=FALSE, fig.height=7, fig.width=10, fig.cap = paste0("The above figure shows reported concentration data from individual systems, with linear interpolation between reports of varying frequency. Gaps of longer than one week are not interpolated. Blue annotations indicate date of last data reported.")}
+plot(systems_plot)
 ```
 
  <font size="3">**Data Sources**</font>  
