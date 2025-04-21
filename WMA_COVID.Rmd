@@ -172,7 +172,7 @@ sewer_num <- length(dfreg %>% pull(system) %>% unique())
 ```
 
 
-```{r Plot region, echo=FALSE, message=F, fig.height=4, fig.width=8, message=FALSE, warning=FALSE, fig.cap=sprintf("The above figure shows the regional wastewater COVID concentration for %d sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. The trend line is a smoothed conditional mean and each point is an individual system report. Trend line and individual reports are each weighted by population and reporting interval. WVA levels are based on the CDC methodology linked below, but use population-weighted statistics, and the %d year baseline is updated each time the WVA is calculated.", sewer_num, time_years)}
+```{r Plot region, echo=FALSE, message=F, fig.height=4, fig.width=8, message=FALSE, warning=FALSE, fig.cap=sprintf("The above figure shows the regional wastewater COVID concentration for %d sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. The trend line is a smoothed conditional mean and each point is an individual system report. Trend line and individual reports are each weighted by population and reporting interval. WVA levels are based on the CDC methodology linked below, but use population-weighted thresholds, and the %d year baseline is updated each time the WVA is calculated.", sewer_num, time_years)}
 plot(region)
 ```
 
