@@ -298,4 +298,5 @@ plot(systems_plot)
 • Wastewater data access: https://www.mass.gov/info-details/wastewater-surveillance-reporting  
 • Population weights are from various sources (EPA estimates whenever available).  
 <br>  
+Support this project: [https://ko-fi.com/raughter] -- thank you!<br>
 Be careful out there <3 [western.ma.covid.data@gmail.com]
