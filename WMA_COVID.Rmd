@@ -172,7 +172,7 @@ sewer_num <- length(dfreg %>% pull(system) %>% unique())
 ```
 
 
-```{r Plot region, echo=FALSE, message=F, fig.height=4, fig.width=8, message=FALSE, warning=FALSE, fig.cap=sprintf("The above figure shows the regional wastewater COVID concentration for %d sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. The trend line is a smoothed conditional mean and each point is an individual system report. Trend line and individual reports are each weighted by population and reporting interval. WVA levels were calculated using the CDC methodology, except the (%d year) baseline is updated each time the WVA is calculated.", sewer_num, time_years)}
+```{r Plot region, echo=FALSE, message=F, fig.height=4, fig.width=8, message=FALSE, warning=FALSE, fig.cap=sprintf("The above figure shows the regional wastewater COVID concentration for %d sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. The trend line is a smoothed conditional mean and each point is an individual system report. Trend line and individual reports are each weighted by population and reporting interval. WVA levels are based on the CDC methodology linked below, but use population-weighted statistics, and the %d year baseline is updated each time the WVA is calculated.", sewer_num, time_years)}
 plot(region)
 ```
 
@@ -229,16 +229,12 @@ ggsave(county_plot, path = here("plots/"), filename = plot_title_count,
        width = width, height = height, units = "px", bg="white")
 
 ```
-```{r Plot counties, echo=FALSE, fig.height=6.25, fig.width=10, message=FALSE, warning=FALSE, fig.cap = paste0("County-level wastewater COVID concentration for ", sewer_num, " sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. Trend line is smoothed conditional mean, points are individual system reports. Both are weighted by population and reporting interval.")}
+```{r Plot counties, echo=FALSE, fig.height=6.25, fig.width=10, message=FALSE, warning=FALSE, fig.cap = paste0("The above figure shows county-level wastewater COVID concentration for ", sewer_num, " sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. WVA levels, trend line, and system reports are weighted by population and reporting interval, as described above. Blue annotations indicate date of most recent report.")}
 plot(county_plot)
 ```
 
 
 ```{r Prepare Systems Plot, echo=FALSE, message=FALSE, warning=FALSE}
-# title_sys <- "Wastewater COVID Concentration for Sewer Systems in Western MA"
-# subtitle_sys <- paste0(min(dfreg$date), " to ", max(dfreg$date))
-# caption_sys <- "Trend line is smoothed conditional mean, points are individual system reports. Both are weighted by population and reporting interval.\nBe careful out there <3 western.ma.covid.data@gmail.com"
-
 smooth_groups <- full_sample %>% 
   filter(date > max(date) - months(6) & wmass) %>% select(system, group=smooth_group) %>% unique()
 
@@ -293,7 +289,7 @@ systems_plot <-
     scale_x_date(date_labels = "%b\n%Y")
 ```
  <font size="5">Concentration for Individual Sewer Systems and Wastewater Viral Activity Level</font>
-```{r Systems plot, echo=FALSE, message=FALSE, warning=FALSE, fig.height=7, fig.width=10, fig.cap = paste0("The above figure shows reported concentration data from individual systems, with linear interpolation between reports of varying frequency. Gaps of longer than one week are not interpolated. Blue annotations indicate date of last data reported.")}
+```{r Systems plot, echo=FALSE, message=FALSE, warning=FALSE, fig.height=7, fig.width=10, fig.cap = paste0("The above figure shows reported concentration data from individual systems with a smoothed conditional mean. Gaps of longer than one week are not modeled. Blue annotations indicate date of most recent report.")}
 plot(systems_plot)
 ```
 
@@ -301,6 +297,5 @@ plot(systems_plot)
 • CDC methodology: https://www.cdc.gov/nwss/about-data.html#data-method  
 • Wastewater data access: https://www.mass.gov/info-details/wastewater-surveillance-reporting  
 • Population weights are from various sources (EPA estimates whenever available).  
-<br>  
 <br>  
 Be careful out there <3 [western.ma.covid.data@gmail.com]
