@@ -54,7 +54,8 @@ svalley_counties <- c("Hampden", "Hampshire")
 berkshire <- "Berkshire"
 
 ### Set time parameter
-time_years = 1
+time_years <- 1
+time_months <- time_years * 12
 
 ### Prepare the data
 full_sample <-
@@ -110,7 +111,6 @@ full_sample <-
 # save(full_sample, weights, file="current.Rda")
 
 wva_pal <- c("#49a667", "#b6c459", "#8fa1ef", "#fdae61", "#f45489")
-time_years = 1
 
 ### -----
 
@@ -158,9 +158,10 @@ height <- 1900
 ggsave(region, path = here("plots/"), filename = plot_title_reg,
        width = width, height = height, units = "px", bg="white")
 ```
+**Support this project here:** [https://ko-fi.com/raughter]. **Thank you!**<br>
+
  
- 
- <font size="5">Regional Concentration and Wastewater Viral Activity Level</font>
+ <font size="5">Regional Concentration and Wastewater Viral Activity Level (WVA)</font>
 ```{r Display summary message, echo=FALSE, message=FALSE, warning=FALSE, comment=NA}
 subtitle <- paste0("From ", min(dfreg$date), " to ", max(dfreg$date),
                    "\nCurrent WVA level: ",  dfreg %>% arrange(date) %>% pull(wva_lvl) %>%  last() %>% as.character(),
@@ -172,7 +173,7 @@ sewer_num <- length(dfreg %>% pull(system) %>% unique())
 ```
 
 
-```{r Plot region, echo=FALSE, message=F, fig.height=4, fig.width=8, message=FALSE, warning=FALSE, fig.cap=sprintf("The above figure shows the regional wastewater COVID concentration for %d sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. The trend line is a smoothed conditional mean and each point is an individual system report. Trend line and individual reports are each weighted by population and reporting interval. WVA levels are based on the CDC methodology linked below, but use population-weighted thresholds, and the %d year baseline is updated each time the WVA is calculated.", sewer_num, time_years)}
+```{r Plot region, echo=FALSE, message=F, fig.height=4, fig.width=8, message=FALSE, warning=FALSE, fig.cap=sprintf("The above figure shows the regional wastewater COVID concentration for %d sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. Wastewater Viral Activity levels are relative to the previous %d months of data.", sewer_num, time_months)}
 plot(region)
 ```
 
@@ -229,7 +230,7 @@ ggsave(county_plot, path = here("plots/"), filename = plot_title_count,
        width = width, height = height, units = "px", bg="white")
 
 ```
-```{r Plot counties, echo=FALSE, fig.height=6.25, fig.width=10, message=FALSE, warning=FALSE, fig.cap = paste0("The above figure shows county-level wastewater COVID concentration for ", sewer_num, " sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. WVA levels, trend line, and system reports are weighted by population and reporting interval, as described above. Blue annotations indicate date of most recent report.")}
+```{r Plot counties, echo=FALSE, fig.height=6.25, fig.width=10, message=FALSE, warning=FALSE, fig.cap = sprintf("The above figure shows county-level wastewater COVID concentration for %d sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. Wastewater Viral Activity (WVA) levels are relative to the previous %d months of data. Blue annotations show the date of most recent report and the current WVA level.", sewer_num, time_months)}
 plot(county_plot)
 ```
 
@@ -288,15 +289,22 @@ systems_plot <-
   facet_wrap(~system, ncol=3) +
     scale_x_date(date_labels = "%b\n%Y")
 ```
- <font size="5">Concentration for Individual Sewer Systems and Wastewater Viral Activity Level</font>
-```{r Systems plot, echo=FALSE, message=FALSE, warning=FALSE, fig.height=7, fig.width=10, fig.cap = paste0("The above figure shows reported concentration data from individual systems with a smoothed conditional mean. Gaps of longer than one week are not modeled. Blue annotations indicate date of most recent report.")}
+
+ <font size="5">Individual Sewer System Concentration and Wastewater Viral Activity Level</font>
+```{r Systems plot, echo=FALSE, message=FALSE, warning=FALSE, fig.height=7, fig.width=10, fig.cap = sprintf("The above figure shows reported concentration data from %d individual sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. Wastewater Viral Activity (WVA) levels are relative to the previous %d months of data. Blue annotations show the date of most recent report and the current WVA level.", sewer_num, time_months)}
 plot(systems_plot)
 ```
+**Support this project here:** [https://ko-fi.com/raughter]. **Thank you!**
+<br><br>
+<font size="3">**Technical Notes**</font>  
+• The trend line is a smoothed conditional mean, specifically a Locally Estimated Scatterplot Smoother (or LOESS).<br> 
+• Wastewater Viral Activity levels are based on the CDC methodology linked below, with two differences: (1) use of weighted statistics (median and standard deviation) to calculate thresholds, with population served and reporting interval as weights; and (2) The baseline is updated each time the WVA is calculated, rather than every 6 months.<br> 
+• All analysis and visualization is performed in R. Data and scripts are accessible in the github respository here: [https://github.com/raughter/western-mass-covid]. 
+
 
  <font size="3">**Data Sources**</font>  
 • CDC methodology: https://www.cdc.gov/nwss/about-data.html#data-method  
 • Wastewater data access: https://www.mass.gov/info-details/wastewater-surveillance-reporting  
 • Population weights are from various sources (EPA estimates whenever available).  
-<br>  
-Support this project: [https://ko-fi.com/raughter] -- thank you!<br>
-Be careful out there <3 [western.ma.covid.data@gmail.com]
+<br>
+Be careful out there <3

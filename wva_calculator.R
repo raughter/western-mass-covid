@@ -10,12 +10,12 @@ cdc_wva <- function(ww){
   WVA_lin = exp(WVA_log)
   WVA_level = factor(
     case_when(
-      WVA_lin <= 1.5 ~ "minimal",
-      WVA_lin > 1.5 & WVA_lin <=3 ~ "low",
-      WVA_lin > 3 & WVA_lin <= 4.5 ~ "moderate",
-      WVA_lin > 4.5 & WVA_lin <= 8  ~ "high",
-      WVA_lin > 8 ~ "very high"), 
-    levels=c("minimal", "low", "moderate", "high", "very high"))
+      WVA_lin <= 1.5 ~ "Minimal",
+      WVA_lin > 1.5 & WVA_lin <=3 ~ "Low",
+      WVA_lin > 3 & WVA_lin <= 4.5 ~ "Moderate",
+      WVA_lin > 4.5 & WVA_lin <= 8  ~ "High",
+      WVA_lin > 8 ~ "Very High"), 
+    levels=c("Minimal", "Low", "Moderate", "High", "Very High"))
   return(WVA_level)}
 
 # Weighted WVA 
@@ -30,12 +30,12 @@ wtd_wva <- function(ww, wts){
   WVA_lin = exp(WVA_log)
   WVA_level = factor(
     case_when(
-      WVA_lin <= 1.5 ~ "minimal",
-      WVA_lin > 1.5 & WVA_lin <=3 ~ "low",
-      WVA_lin > 3 & WVA_lin <= 4.5 ~ "moderate",
-      WVA_lin > 4.5 & WVA_lin <= 8  ~ "high",
-      WVA_lin > 8 ~ "very high"), 
-    levels=c("minimal", "low", "moderate", "high", "very high"))
+      WVA_lin <= 1.5 ~ "Minimal",
+      WVA_lin > 1.5 & WVA_lin <=3 ~ "Low",
+      WVA_lin > 3 & WVA_lin <= 4.5 ~ "Moderate",
+      WVA_lin > 4.5 & WVA_lin <= 8  ~ "High",
+      WVA_lin > 8 ~ "Very High"), 
+    levels=c("Minimal", "Low", "Moderate", "High", "Very High"))
   return(WVA_level)}
 
 # returns WW threshold for a given raw wva score
@@ -103,14 +103,14 @@ smooth_operator <- function(df, time_years){
   smooth <- predict(fit, newdata = dfnew, se=T)
   dfnew$y_smoothed <- exp(smooth[[1]])
   dfnew$se <- exp(smooth[[2]])
-  dfnew$se_low <- exp(log(dfnew$y_smoothed) - 1.96 * log(dfnew$se))
-  dfnew$se_high <- exp(log(dfnew$y_smoothed) + 1.96 * log(dfnew$se))
+  dfnew$se_Low <- exp(log(dfnew$y_smoothed) - 1.96 * log(dfnew$se))
+  dfnew$se_High <- exp(log(dfnew$y_smoothed) + 1.96 * log(dfnew$se))
   ### get wva levels
   thresholds_reg <- wtd_ww_threshold_breaks(dfnew$avg_7d_covid_conc, wts=dfnew$pop_day)
   # get wva for smooth
-  dfnew$wva_lvl <- cut(dfnew$y_smoothed, breaks = thresholds_reg, labels = c("minimal", "low", "moderate", "high", "very high"))
+  dfnew$wva_lvl <- cut(dfnew$y_smoothed, breaks = thresholds_reg, labels = c("Minimal", "Low", "Moderate", "High", "Very High"))
   # get wva for points
-  dfnew$wva_point <- cut(dfnew$avg_7d_covid_conc, breaks = thresholds_reg, labels = c("minimal", "low", "moderate", "high", "very high"))
+  dfnew$wva_point <- cut(dfnew$avg_7d_covid_conc, breaks = thresholds_reg, labels = c("Minimal", "Low", "Moderate", "High", "Very High"))
   dfnew$wva_score <- round(wtd_wva_raw(dfnew$y_smoothed, wts = dfnew$pop_day), 1)
   return(dfnew)
 }
@@ -128,12 +128,12 @@ smooth_operator <- function(df, time_years){
 #   )
 #   WVA_level = factor(
 #     case_when(
-#       WVA_lin <= 1.5 ~ "minimal",
-#       WVA_lin > 1.5 & WVA_lin <=3 ~ "low",
-#       WVA_lin > 3 & WVA_lin <= 4.5 ~ "moderate",
-#       WVA_lin > 4.5 & WVA_lin <= 8  ~ "high",
-#       WVA_lin > 8 ~ "very high"), 
-#     levels=c("minimal", "low", "moderate", "high", "very high"))
+#       WVA_lin <= 1.5 ~ "Minimal",
+#       WVA_lin > 1.5 & WVA_lin <=3 ~ "Low",
+#       WVA_lin > 3 & WVA_lin <= 4.5 ~ "Moderate",
+#       WVA_lin > 4.5 & WVA_lin <= 8  ~ "High",
+#       WVA_lin > 8 ~ "Very High"), 
+#     levels=c("Minimal", "Low", "Moderate", "High", "Very High"))
 #   return(WVA_level)}
 # 
 # # single value of wva_raw for rolling functions
@@ -160,7 +160,7 @@ smooth_operator <- function(df, time_years){
 #     return(last(perc))}
 # 
 # # returns risk level if upper threshold for Low status is a raw CDC level of 2 (rather than 3)
-# wva_2_is_low <- function(ww){
+# wva_2_is_Low <- function(ww){
 #   weighted_mean_log = log(ww)
 #   baseline = quantile(weighted_mean_log, probs=.1)
 #   stdev = sd(weighted_mean_log)
@@ -169,10 +169,10 @@ smooth_operator <- function(df, time_years){
 #   WVA_lin = exp(WVA_log)
 #   WVA_level = factor(
 #     case_when(
-#       WVA_lin <= 1.5 ~ "minimal",
-#       WVA_lin > 1.5 & WVA_lin <=2 ~ "low",
-#       WVA_lin > 2 & WVA_lin <= 4.5 ~ "moderate",
-#       WVA_lin > 4.5 & WVA_lin <= 8  ~ "high",
-#       WVA_lin > 8 ~ "very high"), 
-#     levels=c("minimal", "low", "moderate", "high", "very high"))
+#       WVA_lin <= 1.5 ~ "Minimal",
+#       WVA_lin > 1.5 & WVA_lin <=2 ~ "Low",
+#       WVA_lin > 2 & WVA_lin <= 4.5 ~ "Moderate",
+#       WVA_lin > 4.5 & WVA_lin <= 8  ~ "High",
+#       WVA_lin > 8 ~ "Very High"), 
+#     levels=c("Minimal", "Low", "Moderate", "High", "Very High"))
 #   return(WVA_level)}
