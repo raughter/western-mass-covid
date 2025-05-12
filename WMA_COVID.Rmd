@@ -158,7 +158,8 @@ height <- 1900
 ggsave(region, path = here("plots/"), filename = plot_title_reg,
        width = width, height = height, units = "px", bg="white")
 ```
-**Your support is appreciated!** https://ko-fi.com/raughter. **Thank you.<br>This is a one-person volunteer project.**
+**Your support is appreciated!** https://ko-fi.com/raughter. **Thank you.<br>This is a one-person volunteer project.**<br><br>
+Updates on Thursday evening, as long as new data is uploaded to the state dashboard (link below).<br>
  
  <font size="5">Regional Concentration and Wastewater Viral Activity Level</font>
 ```{r Display summary message, echo=FALSE, message=FALSE, warning=FALSE, comment=NA}
@@ -229,7 +230,7 @@ ggsave(county_plot, path = here("plots/"), filename = plot_title_count,
        width = width, height = height, units = "px", bg="white")
 
 ```
-```{r Plot counties, echo=FALSE, fig.height=6.25, fig.width=10, message=FALSE, warning=FALSE, fig.cap = sprintf("The above figure shows county-level wastewater COVID concentration and Wastewater Viral Activity level (WVA) for %d sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. WVA levels are relative to the previous %d months of data. Blue annotations show the date of most recent report and the current WVA level.", sewer_num, time_months)}
+```{r Plot counties, echo=FALSE, fig.height=6.25, fig.width=10, message=FALSE, warning=FALSE, fig.cap = sprintf("The above figure shows county-level wastewater COVID concentration and Wastewater Viral Activity level (WVA) for %d sewer systems in Berkshire County (Pittsfield); Hampden County (S. Hadley, Springfield); Hampshire County (Amherst, Northampton), and Franklin County (Greenfield, Montague, S. Deerfield, Sunderland). WVA levels are relative to the previous %d months of data. Blue annotations show the date of most recent report and the current WVA level.", sewer_num, time_months)}
 plot(county_plot)
 ```
 
