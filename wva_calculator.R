@@ -14,11 +14,11 @@ cdc_wva <- function(ww){
       WVA_lin > 1.5 & WVA_lin <=3 ~ "Low",
       WVA_lin > 3 & WVA_lin <= 4.5 ~ "Moderate",
       WVA_lin > 4.5 & WVA_lin <= 8  ~ "High",
-      WVA_lin > 8 ~ "Very High"), 
+      WVA_lin > 8 ~ "Very High"),
     levels=c("Minimal", "Low", "Moderate", "High", "Very High"))
   return(WVA_level)}
 
-# Weighted WVA 
+# Weighted WVA
 wtd_wva <- function(ww, wts){
   ww_log = log(ww)
   baseline = as.numeric(Hmisc::wtd.quantile(ww_log, weights=wts, probs=.1, normwt = TRUE))
@@ -34,7 +34,7 @@ wtd_wva <- function(ww, wts){
       WVA_lin > 1.5 & WVA_lin <=3 ~ "Low",
       WVA_lin > 3 & WVA_lin <= 4.5 ~ "Moderate",
       WVA_lin > 4.5 & WVA_lin <= 8  ~ "High",
-      WVA_lin > 8 ~ "Very High"), 
+      WVA_lin > 8 ~ "Very High"),
     levels=c("Minimal", "Low", "Moderate", "High", "Very High"))
   return(WVA_level)}
 
@@ -56,7 +56,7 @@ ww_threshold_breaks <- function(ww, level_values = c(0, 1.5, 3, 4.5, 8, Inf)){
   sapply(level_values, function(wva_score) ww_threshold(ww, wva_score))
 }
 
-wtd_ww_threshold_breaks <- 
+wtd_ww_threshold_breaks <-
   function(ww, wts, level_values = c(0, 1.5, 3, 4.5, 8, Inf)){
   sapply(level_values, function(wva_score) wtd_ww_threshold(ww, wva_score, wts))
 }
@@ -92,7 +92,7 @@ smooth_operator <- function(df, time_years){
   # Set span so it = 6 weeks -- this means the final point is influenced by the 3 weeks prior
   weeks_between <- interval(min(sample$date), max(sample$date)) / weeks(1)
   fit_span = 6/weeks_between
-  
+
   # Generate the loess smooth for the regional data
   fit <- loess(log(avg_7d_covid_conc) ~ as.numeric(date),
                span=fit_span,
@@ -132,10 +132,10 @@ smooth_operator <- function(df, time_years){
 #       WVA_lin > 1.5 & WVA_lin <=3 ~ "Low",
 #       WVA_lin > 3 & WVA_lin <= 4.5 ~ "Moderate",
 #       WVA_lin > 4.5 & WVA_lin <= 8  ~ "High",
-#       WVA_lin > 8 ~ "Very High"), 
+#       WVA_lin > 8 ~ "Very High"),
 #     levels=c("Minimal", "Low", "Moderate", "High", "Very High"))
 #   return(WVA_level)}
-# 
+#
 # # single value of wva_raw for rolling functions
 # wva_raw_single <-
 #   function(ww){
@@ -146,19 +146,19 @@ smooth_operator <- function(df, time_years){
 #     WVA_log = diff/stdev
 #     WVA_lin = last(exp(WVA_log))
 #     return(WVA_lin)}
-# 
-# 
+#
+#
 # # returns percentile rank
 # wva_perc <-
 #   function(ww){
 #     perc = percent_rank(ww)
 #     return(perc)}
-# 
+#
 # wva_perc_single <-
 #   function(ww){
 #     perc = percent_rank(ww)
 #     return(last(perc))}
-# 
+#
 # # returns risk level if upper threshold for Low status is a raw CDC level of 2 (rather than 3)
 # wva_2_is_Low <- function(ww){
 #   weighted_mean_log = log(ww)
@@ -173,6 +173,6 @@ smooth_operator <- function(df, time_years){
 #       WVA_lin > 1.5 & WVA_lin <=2 ~ "Low",
 #       WVA_lin > 2 & WVA_lin <= 4.5 ~ "Moderate",
 #       WVA_lin > 4.5 & WVA_lin <= 8  ~ "High",
-#       WVA_lin > 8 ~ "Very High"), 
+#       WVA_lin > 8 ~ "Very High"),
 #     levels=c("Minimal", "Low", "Moderate", "High", "Very High"))
 #   return(WVA_level)}
