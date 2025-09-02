@@ -1,2 +1,2 @@
 # western-mass-covid
-This is an attempt to offer a regional outlook on COVID wastewater situation. Alternatives are state-level via the CDC -- too coarse-grained -- or individual systems via the Commonwealth -- too fine grained.
+This is an attempt to offer a regional outlook on COVID wastewater situation. Alternatives are state-level via the CDC -- too coarse-grained -- or individual systems via the Commonwealth -- too fine grained. Additionally, when the CDC aggregates to state level it simply takes the median of the systems, which does not take population into account. The method here uses population-weighted statistics to calculate WVA levels and thresholds. 
