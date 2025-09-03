@@ -317,5 +317,5 @@ plot(systems_plot)
 • Wastewater data access: https://www.mass.gov/info-details/wastewater-surveillance-reporting  
 • Population weights are from various sources (EPA estimates whenever available).  
 <br><br>
-**If you have the means, you can buy me coffee here.** https://ko-fi.com/raughter. <br>
+**If you have the means, you can buy me a coffee here.** https://ko-fi.com/raughter. <br>
 **No presh. Stay safe <3**
