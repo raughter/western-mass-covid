@@ -188,7 +188,7 @@ sewer_num <- length(dfreg %>% pull(system) %>% unique())
 ```{r Plot region, echo=FALSE, message=F, fig.height=4, fig.width=8, message=FALSE, warning=FALSE, fig.cap=sprintf("The above figure shows the regional wastewater COVID concentration and Wastewater Viral Activity level (WVA) for %d sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. WVA levels are relative to the previous %d months of data.", sewer_num, time_months)}
 plot(region)
 ```
-**Buy me a coffee** https://ko-fi.com/raughter. **Thank you -- Be careful out there <3**<br><br>
+<br>
  <font size="5">County-level Concentration and Wastewater Viral Activity Level</font>
 ```{r Prepare county plot, echo=FALSE, warning=FALSE}
 counties <- full_sample %>% filter(date > max(date) - years(time_years) & wmass) %>% pull(county) %>% unique()
@@ -305,7 +305,6 @@ systems_plot <-
 ```{r Systems plot, echo=FALSE, message=FALSE, warning=FALSE, fig.height=7, fig.width=10, fig.cap = sprintf("The above figure shows reported concentration data and Wastewater Viral Activity level (WVA) from %d individual sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. WVA levels are relative to the previous %d months of data. Blue annotations show the date of most recent report and the current WVA level.", sewer_num, time_months)}
 plot(systems_plot)
 ```
-**Buy me a coffee :)** https://ko-fi.com/raughter.<br>**Thank you!**<br><br> 
 <font size="3">**Technical Notes**</font>  
 • Wastewater Viral Activity levels are based on the CDC methodology linked below, with two differences: <br>(1) use of weighted statistics (median and standard deviation) to calculate thresholds, with population served and reporting interval as weights; and <br>(2) The baseline is updated each time the WVA is calculated, rather than every 6 months.<br> 
 • The WVA is relative to the previous 12 months of data and is calculated independently for each panel. Because of this, WVA thresholds may be different across panels. The y-axis (copies/mL) is fixed, but the WVA levels are relative.<br> 
@@ -317,5 +316,6 @@ plot(systems_plot)
 • CDC methodology: https://www.cdc.gov/nwss/about-data.html#data-method  
 • Wastewater data access: https://www.mass.gov/info-details/wastewater-surveillance-reporting  
 • Population weights are from various sources (EPA estimates whenever available).  
-<br>
-Be careful out there <3
+<br><br>
+**If you have the means, you can buy me coffee here.** https://ko-fi.com/raughter. <br>
+**No presh. Stay safe <3**
