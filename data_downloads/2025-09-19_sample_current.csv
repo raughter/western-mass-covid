@@ -1,0 +1,996 @@
+respiratory_season,tester,sars-cov-2_detected,sample_collection_date,site_type,name_of_sampling_location,7_day_average_of_sars-cov-2_concentration,number_of_samples_in_the_last_7_days,units_(measuring_concentration),city_of_sampling_location,state_of_sampling_location,county_of_sampling_location,date_data_last_updated,date,source
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,Fall River WWTP,23114.235999999997,5,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-08-08T00:00:00Z,Municipal,MWRA Southern,227391.71714285712,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-08,current
+2025-2026,BioBot,Detected,2025-07-27T00:00:00Z,Municipal,SESD-Peabody Metering Station,216052.2133333333,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-27,current
+2025-2026,BioBot,Detected,2025-07-03T00:00:00Z,Municipal,MWRA Southern,101197.76285714286,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-03,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,S.Deerfield WWTP,1660469.5899999999,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,MWRA Southern,262273.7014285714,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,Fitchburg Public Works,562398.3525,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Springfield WWTP,397551.52,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,S.Deerfield WWTP,158014.74666666667,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-07-26T00:00:00Z,Municipal,MWRA Southern,193186.09857142856,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-26,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,MWRA Southern,345912.5528571429,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Fall River WWTP,25886.317499999997,4,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,MWRA Northern,270611.97428571427,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,SESD-Peabody Metering Station,991655.2625000001,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Fitchburg Public Works,62020.115,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-07-03T00:00:00Z,Municipal,Pittsfield WWTP,111433.022,5,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-03,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,SESD-Peabody Metering Station,454149.205,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,MWRA Southern,231432.0214285714,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Brockton/ Abington,283036.82,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,MWRA Southern,241126.15857142856,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Pittsfield WWTP,206762.02,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-07-06T00:00:00Z,Municipal,MWRA Southern,121637.22714285713,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-06,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,MWRA Southern,326050.85714285716,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Whitman,104377.03333333333,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-07-18T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,192828.90500000003,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-18,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,S.Deerfield WWTP,438506.71666666673,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,MWRA Northern,81122.20857142856,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-09-06T00:00:00Z,Municipal,SESD-Peabody Metering Station,922756.98,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-09-06,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,Whitman,598250.71,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,173521.2225,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-08-15T00:00:00Z,Municipal,SESD-Peabody Metering Station,350430.1575,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-15,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,MWRA Northern,120645.51999999999,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Uxbridge WWTF,132430.63999999998,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Hull WWTF,1944152.6466666665,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-07-03T00:00:00Z,Municipal,Hull WWTF,98199.73333333332,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-03,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,S.Deerfield WWTP,221788.29750000002,4,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-08-01T00:00:00Z,Municipal,MWRA Southern,213726.62714285712,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-01,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Hull WWTF,294073.70666666667,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-07-25T00:00:00Z,Municipal,MWRA Southern,170130.07857142857,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-25,current
+2025-2026,BioBot,Detected,2025-07-20T00:00:00Z,Municipal,MWRA Southern,155602.2285714286,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-20,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,MWRA Southern,290060.20142857137,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,Upper Blackstone Clean Water,95696.4975,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,Plymouth Headworks Influent,274160.18333333335,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Lynn WWTF,226335.20666666667,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,MWRA Northern,144344.03285714285,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Haverhill WWTP,175078.53666666665,3,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Haverhill WWTP,219400.04666666666,3,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Whitman,187986.4,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,108254.95666666667,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-08-24T00:00:00Z,Municipal,MWRA Northern,276222.90428571426,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-24,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Hull WWTF,150237.74333333332,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-07-18T00:00:00Z,Municipal,SESD-Peabody Metering Station,231603.64500000002,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-18,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Montague Clean Water Facility,38558.613333333335,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,MWRA Northern,108929.46428571429,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Wareham WPCF,457422.7475,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Whitman,91119.73999999999,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Not Detected,2025-09-04T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Surfside WTF,404516.305,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Pittsfield WWTP,100034.845,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-07-18T00:00:00Z,Municipal,MWRA Southern,149967.9385714286,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-18,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Pittsfield WWTP,92991.00666666667,3,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Brockton/ Abington,521037.1775,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,Fall River WWTP,45157.05,5,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-07-05T00:00:00Z,Municipal,MWRA Northern,99004.89857142858,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-05,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,S.Deerfield WWTP,140936.58333333334,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,MWRA Southern,340704.27999999997,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,MWRA Southern,337756.3642857143,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,MWRA Southern,199819.7457142857,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-07-26T00:00:00Z,Municipal,MWRA Northern,142295.9,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-26,current
+2025-2026,BioBot,Detected,2025-09-01T00:00:00Z,Municipal,Upper Blackstone Clean Water,804855.2933333333,3,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-09-01,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Amherst WWTP,106220.40333333334,3,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Plymouth Headworks Influent,275973.59,1,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Pittsfield WWTP,109504.10250000001,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Montague Clean Water Facility,36338.59333333333,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,New Bedford WWTF,109324.81,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Not Detected,2025-07-15T00:00:00Z,Municipal,New Bedford WWTF,0,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Not Detected,2025-06-30T00:00:00Z,Municipal,Brockton/ Abington,62372.5125,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,SESD-Peabody Metering Station,213204.79333333333,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Plymouth Headworks Influent,174980.55999999997,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Pittsfield WWTP,101221.78249999999,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Uxbridge WWTF,830235.8466666667,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Not Detected,2025-08-07T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Not Detected,2025-08-07T00:00:00Z,Municipal,Surfside WTF,54123.115,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Surfside WTF,75493.915,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Surfside WTF,129617.03,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Surfside WTF,1068.895,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Surfside WTF,55192.009999999995,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Billerica Treatment Plant,491829.90499999997,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Fitchburg Public Works,299946.185,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,Hull WWTF,280767.7166666666,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Haverhill WWTP,125219,1,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,Greenfield WPCF,102497.745,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Northampton WWTP,101507.5,1,copies/L,Northampton,MA,Hampshire,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Montague Clean Water Facility,146534.67666666667,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Not Detected,2025-09-09T00:00:00Z,Municipal,New Bedford WWTF,0,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,New Bedford WWTF,2900.31,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,New Bedford WWTF,138194.39,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Whitman,1014527.7699999999,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Not Detected,2025-08-05T00:00:00Z,Municipal,New Bedford WWTF,0,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,New Bedford WWTF,204560.15,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,Greenfield WPCF,217076.58500000002,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Springfield WWTP,255378.805,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,Wareham WPCF,952470.4525,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,Fall River WWTP,12077.036,5,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Surfside WTF,142360.10666666666,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Surfside WTF,784952.83,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Surfside WTF,412037.6433333333,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Surfside WTF,1054630.3666666665,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Surfside WTF,822.5466666666666,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Surfside WTF,643415.2699999999,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Surfside WTF,270500.0833333333,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Surfside WTF,913092.8066666666,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Not Detected,2025-09-08T00:00:00Z,Municipal,Surfside WTF,0,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Not Detected,2025-09-08T00:00:00Z,Municipal,Surfside WTF,642592.7233333333,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Not Detected,2025-09-08T00:00:00Z,Municipal,Surfside WTF,269677.5366666667,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Not Detected,2025-09-08T00:00:00Z,Municipal,Surfside WTF,912270.2599999999,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Upper Blackstone Clean Water,1112711.5975000001,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Greenfield WPCF,226413.08500000002,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Northbridge Sewer Department,262508.87,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,Hopedale WWTP,614319.035,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Springfield WWTP,233422.195,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Sunderland WWTP,48486.47,1,copies/L,Sunderland,MA,Franklin,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Lynn WWTF,121092.41000000002,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Montague Clean Water Facility,1585640.24,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Hopedale WWTP,3431912.515,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Northampton WWTP,142653.23,1,copies/L,Northampton,MA,Hampshire,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Billerica Treatment Plant,348556.32999999996,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-07-07T00:00:00Z,Municipal,Fitchburg Public Works,98954.55333333333,3,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,Pittsfield WWTP,240216.0575,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,Hopedale WWTP,4963514.245,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,Amherst WWTP,47866.22,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-07-07T00:00:00Z,Municipal,Surfside WTF,144437.82,1,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Not Detected,2025-07-07T00:00:00Z,Municipal,Surfside WTF,0,1,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Haverhill WWTP,208257.46333333335,3,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Hull WWTF,113328.23333333334,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,S.Deerfield WWTP,116322.88,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,South Hadley Div. of WPC,76525.58,1,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Brockton/ Abington,751411.7233333333,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Plymouth Headworks Influent,441577.99,1,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Greenfield WPCF,110716.6,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Pittsfield WWTP,129795.93250000001,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Wareham WPCF,310294.23,1,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Whitman,1501154.245,2,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,MFN Regional Wastewater District,254281.79,1,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Not Detected,2025-07-07T00:00:00Z,Municipal,Montague Clean Water Facility,0,1,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Not Detected,2025-07-23T00:00:00Z,Municipal,Sunderland WWTP,0,1,copies/L,Sunderland,MA,Franklin,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,Springfield WWTP,195266.68666666668,3,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Not Detected,2025-07-28T00:00:00Z,Municipal,Northbridge Sewer Department,45652.43666666667,3,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,Hull WWTF,365352.73,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Hopedale WWTP,1216618.865,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Surfside WTF,447816.14499999996,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Surfside WTF,373391.125,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Surfside WTF,372322.23,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Not Detected,2025-08-11T00:00:00Z,Municipal,Surfside WTF,75493.915,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Not Detected,2025-08-11T00:00:00Z,Municipal,Surfside WTF,1068.895,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Not Detected,2025-08-11T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Not Detected,2025-07-25T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-25,current
+2025-2026,BioBot,Not Detected,2025-07-25T00:00:00Z,Municipal,Surfside WTF,34131.4,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-25,current
+2025-2026,BioBot,Detected,2025-07-25T00:00:00Z,Municipal,Surfside WTF,201699.175,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-25,current
+2025-2026,BioBot,Detected,2025-07-25T00:00:00Z,Municipal,Surfside WTF,235830.57499999998,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-25,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Amherst WWTP,86356.60500000001,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Fall River WWTP,35452.675,2,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Hopedale WWTP,169443.65500000003,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-08-17T00:00:00Z,Municipal,Fall River WWTP,32345.260000000006,3,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-08-17,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Lynn WWTF,153944.065,2,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Hopedale WWTP,169568.285,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-08-24T00:00:00Z,Municipal,Brockton/ Abington,711510.3300000001,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-24,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,Northbridge Sewer Department,310201.92000000004,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,Hull WWTF,129019.37666666666,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Northbridge Sewer Department,411120.015,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-08-29T00:00:00Z,Municipal,Pittsfield WWTP,361848.89749999996,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-29,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Lynn WWTF,179964.04333333333,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,South Hadley Div. of WPC,94447.42,1,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Brockton/ Abington,316991.7175,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-09-01T00:00:00Z,Municipal,Fall River WWTP,59132.473333333335,3,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-09-01,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Northbridge Sewer Department,238938.19,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Fitchburg Public Works,457865.0266666667,3,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Not Detected,2025-07-29T00:00:00Z,Municipal,Wareham WPCF,78608.98749999999,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,Hopedale WWTP,506900.17500000005,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,MFN Regional Wastewater District,114718.275,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-08-03T00:00:00Z,Municipal,Brockton/ Abington,287809.5175,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-03,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,Whitman,186241.99750000003,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Not Detected,2025-08-25T00:00:00Z,Municipal,Surfside WTF,647598.78,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Not Detected,2025-08-25T00:00:00Z,Municipal,Surfside WTF,1908.125,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Not Detected,2025-08-25T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Surfside WTF,750425.8500000001,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Surfside WTF,104735.195,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Surfside WTF,102827.07,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Northbridge Sewer Department,201578.75,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,Northampton WWTP,438884.57,1,copies/L,Northampton,MA,Hampshire,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,SESD-Peabody Metering Station,235900.77,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,Fitchburg Public Works,215165.08333333334,3,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,S.Deerfield WWTP,1197540.5266666666,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-09-01T00:00:00Z,Municipal,Brockton/ Abington,965850.7400000001,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-01,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Pittsfield WWTP,311267.505,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-07-13T00:00:00Z,Municipal,Brockton/ Abington,206780.0325,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-13,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Upper Blackstone Clean Water,777069.9666666667,3,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Plymouth Headworks Influent,60978.770000000004,2,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,Lynn WWTF,313958.85,2,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,145391.80333333334,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,Whitman,207111.02999999997,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Whitman,3728820.0425,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,S.Deerfield WWTP,26499.835,2,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,New Bedford WWTF,556335.38,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,Lynn WWTF,231680.6433333333,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Not Detected,2025-08-19T00:00:00Z,Municipal,New Bedford WWTF,0,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Wareham WPCF,253965.4233333333,3,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Fitchburg Public Works,186052.155,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Not Detected,2025-07-08T00:00:00Z,Municipal,Montague Clean Water Facility,0,2,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,Uxbridge WWTF,149242.41666666666,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Billerica Treatment Plant,214018.64500000002,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Amherst WWTP,646321.65,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,Plymouth Headworks Influent,146582.83333333334,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,S.Deerfield WWTP,374791.50500000006,4,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Greenfield WPCF,104644.51000000001,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Uxbridge WWTF,786322.1233333334,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,Upper Blackstone Clean Water,250070.1075,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Not Detected,2025-09-02T00:00:00Z,Municipal,New Bedford WWTF,0,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,New Bedford WWTF,282965.12,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Northbridge Sewer Department,99841.81,1,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Northbridge Sewer Department,80805.64499999999,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,Montague Clean Water Facility,356702.8375,4,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,South Hadley Div. of WPC,206651.215,2,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Uxbridge WWTF,1035655.9266666666,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Upper Blackstone Clean Water,572477.1825,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Lynn WWTF,66540.55,2,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,Sunderland WWTP,82573.62,1,copies/L,Sunderland,MA,Franklin,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Brockton/ Abington,464985.885,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Wareham WPCF,117205.22,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Springfield WWTP,883401.365,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-08-17T00:00:00Z,Municipal,Haverhill WWTP,367689.74,3,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-17,current
+2025-2026,BioBot,Detected,2025-08-17T00:00:00Z,Municipal,Haverhill WWTP,412011.25,3,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-17,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Uxbridge WWTF,225683.69000000003,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Hull WWTF,420154.0933333333,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Sunderland WWTP,95383.28,1,copies/L,Sunderland,MA,Franklin,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Plymouth Headworks Influent,169242.47999999998,4,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Surfside WTF,516873.21499999997,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Surfside WTF,438439.68,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Surfside WTF,437245.48,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,Lynn WWTF,116634.30666666669,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Surfside WTF,84236.395,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Surfside WTF,5802.86,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Surfside WTF,4608.66,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Not Detected,2025-07-17T00:00:00Z,Municipal,Surfside WTF,79627.735,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Not Detected,2025-07-17T00:00:00Z,Municipal,Surfside WTF,1194.2,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Not Detected,2025-07-17T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,Pittsfield WWTP,73227.745,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Hopedale WWTP,432019.11,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-09-01T00:00:00Z,Municipal,Northbridge Sewer Department,779513.63,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-09-01,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Northbridge Sewer Department,760589.21,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,MFN Regional Wastewater District,154507.1,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,Uxbridge WWTF,52693.85666666667,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Billerica Treatment Plant,139430.24,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,South Hadley Div. of WPC,42310.24,1,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Greenfield WPCF,136559.775,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,Billerica Treatment Plant,193883.6466666667,3,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Brockton/ Abington,328258.09500000003,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Not Detected,2025-08-14T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Not Detected,2025-08-14T00:00:00Z,Municipal,Surfside WTF,372322.23,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Surfside WTF,602458.905,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Surfside WTF,974781.135,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Fall River WWTP,35310.82,2,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Hopedale WWTP,147960.405,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,Whitman,195822.5,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-08-17T00:00:00Z,Municipal,Upper Blackstone Clean Water,623083.785,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-17,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Pittsfield WWTP,210740.28999999998,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Northbridge Sewer Department,252295.735,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Lynn WWTF,328548.12,2,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,Greenfield WPCF,149863.29333333333,3,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-07-20T00:00:00Z,Municipal,Brockton/ Abington,254131.9125,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-20,current
+2025-2026,BioBot,Detected,2025-08-29T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,758016.8875000001,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-29,current
+2025-2026,BioBot,Detected,2025-07-27T00:00:00Z,Municipal,Upper Blackstone Clean Water,276560.9075,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-27,current
+2025-2026,BioBot,Not Detected,2025-07-14T00:00:00Z,Municipal,S.Deerfield WWTP,9417.28,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Brockton/ Abington,405405.0475000001,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-08-22T00:00:00Z,Municipal,MFN Regional Wastewater District,240748.70500000002,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-08-22,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Springfield WWTP,183171.495,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,Greenfield WPCF,246734.48500000002,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Whitman,175893.1325,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,New Bedford WWTF,4439.08,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Not Detected,2025-08-12T00:00:00Z,Municipal,New Bedford WWTF,0,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Whitman,414022.65,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,New Bedford WWTF,292670.3,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,Whitman,1173079.9974999998,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-08-15T00:00:00Z,Municipal,Pittsfield WWTP,260224.4525,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-15,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Amherst WWTP,247471.06,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Hopedale WWTP,1248408.29,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,Fitchburg Public Works,440245.9725,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,Fitchburg Public Works,165685.5975,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,Fall River WWTP,9402.795,2,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,Upper Blackstone Clean Water,323788.1325,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Uxbridge WWTF,489334.51333333337,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,Billerica Treatment Plant,132227.235,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-07-20T00:00:00Z,Municipal,Upper Blackstone Clean Water,221574.94,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-20,current
+2025-2026,BioBot,Detected,2025-07-06T00:00:00Z,Municipal,Upper Blackstone Clean Water,95413.17749999999,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-06,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,S.Deerfield WWTP,32988.445,2,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,Springfield WWTP,142721.69,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,Amherst WWTP,274781.47,1,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Fitchburg Public Works,247106.97999999998,2,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Uxbridge WWTF,996755.4400000001,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Upper Blackstone Clean Water,1107437.525,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,Pittsfield WWTP,240975.63999999998,5,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Pittsfield WWTP,289705.37,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,MFN Regional Wastewater District,179814.71000000002,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,S.Deerfield WWTP,262184.11,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Hull WWTF,835801.0766666667,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,S.Deerfield WWTP,168020.74666666667,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,South Hadley Div. of WPC,74927.78,2,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Fall River WWTP,89806.84333333334,3,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-07-11T00:00:00Z,Municipal,Amherst WWTP,161611.025,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-07-11,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Fitchburg Public Works,587626.8400000001,2,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Billerica Treatment Plant,249067.28000000003,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,S.Deerfield WWTP,161162.92,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Uxbridge WWTF,128783.45666666667,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-07-13T00:00:00Z,Municipal,Fall River WWTP,24752.1,4,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-13,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Upper Blackstone Clean Water,406066.6325,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Greenfield WPCF,106803.98999999999,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Not Detected,2025-08-25T00:00:00Z,Municipal,S.Deerfield WWTP,543054.81,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,Brockton/ Abington,314540.38,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Montague Clean Water Facility,1103313.0933333335,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Wareham WPCF,256815.16333333333,3,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-09-01T00:00:00Z,Municipal,MFN Regional Wastewater District,448457.70999999996,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-09-01,current
+2025-2026,BioBot,Detected,2025-08-03T00:00:00Z,Municipal,Haverhill WWTP,203225.07499999998,2,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-03,current
+2025-2026,BioBot,Detected,2025-08-16T00:00:00Z,Municipal,South Hadley Div. of WPC,666201.74,2,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-08-16,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Northbridge Sewer Department,139549.135,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Northbridge Sewer Department,86955.015,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,Fall River WWTP,25180.195,4,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Uxbridge WWTF,1481103.5750000002,4,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Northbridge Sewer Department,75942.03,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-08-03T00:00:00Z,Municipal,Upper Blackstone Clean Water,389291.6275,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-03,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,SESD-Peabody Metering Station,636141.23,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Fitchburg Public Works,374408.29500000004,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Plymouth Headworks Influent,340851.95,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Lynn WWTF,75119.06666666667,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,Lynn WWTF,75047.76666666666,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Whitman,322624.535,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-07-03T00:00:00Z,Municipal,Greenfield WPCF,93958.905,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-03,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Fall River WWTP,58110.027500000004,4,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Plymouth Headworks Influent,145810.64,2,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-06-29T00:00:00Z,Municipal,Brockton/ Abington,73373.795,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-06-29,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,Wareham WPCF,210485.81,2,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Montague Clean Water Facility,1213312.6133333335,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Northbridge Sewer Department,369874.57499999995,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Fitchburg Public Works,711532.3175,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,S.Deerfield WWTP,1590751.0833333333,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Greenfield WPCF,254600.89,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Fitchburg Public Works,322370.795,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,MFN Regional Wastewater District,466892.905,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Pittsfield WWTP,143076.22,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,Hull WWTF,750901.89,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Haverhill WWTP,72628.54,1,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Northampton WWTP,216138.2,1,copies/L,Northampton,MA,Hampshire,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,Pittsfield WWTP,138498.325,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Greenfield WPCF,114291.33499999999,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,Plymouth Headworks Influent,84492.69666666667,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-08-08T00:00:00Z,Municipal,MFN Regional Wastewater District,162873.86,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-08-08,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,Uxbridge WWTF,841348.8833333333,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,Brockton/ Abington,309581.3925,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Wareham WPCF,1010264.3525,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Northampton WWTP,166116.89,1,copies/L,Northampton,MA,Hampshire,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Lynn WWTF,233299.295,2,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-08-01T00:00:00Z,Municipal,Pittsfield WWTP,160267.85749999998,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-01,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Fall River WWTP,22761.526,5,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Fitchburg Public Works,293298.955,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-07-18T00:00:00Z,Municipal,MFN Regional Wastewater District,117430.895,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-07-18,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Hopedale WWTP,159188.91999999998,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,South Hadley Div. of WPC,280730.21,1,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-07-26T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,1042392.0066666667,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-26,current
+2025-2026,BioBot,Detected,2025-07-25T00:00:00Z,Municipal,Pittsfield WWTP,171506.42,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-25,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Uxbridge WWTF,127268.57666666668,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Hopedale WWTP,106317.04,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-08-17T00:00:00Z,Municipal,Brockton/ Abington,293296.69,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-17,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,Northampton WWTP,197563.58,1,copies/L,Northampton,MA,Hampshire,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,S.Deerfield WWTP,182787.01,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,Lynn WWTF,46096.69,2,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Lynn WWTF,134294.31333333332,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Wareham WPCF,209653.05749999997,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-09-05T00:00:00Z,Municipal,MFN Regional Wastewater District,700719.3,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-09-05,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,Lynn WWTF,486113.35000000003,2,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Not Detected,2025-09-02T00:00:00Z,Municipal,Montague Clean Water Facility,22309.715,2,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,Hull WWTF,112508.97666666667,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,Amherst WWTP,129583.65,1,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Amherst WWTP,112784.21,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Surfside WTF,414872.5733333333,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Surfside WTF,280406.45666666667,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Surfside WTF,208033.1033333333,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Surfside WTF,73566.98666666666,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Not Detected,2025-07-31T00:00:00Z,Municipal,Surfside WTF,341305.58666666667,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Not Detected,2025-07-31T00:00:00Z,Municipal,Surfside WTF,206839.47,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Not Detected,2025-07-31T00:00:00Z,Municipal,Surfside WTF,134466.11666666667,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Not Detected,2025-07-31T00:00:00Z,Municipal,Surfside WTF,0,3,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,Lynn WWTF,410821.185,2,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-07-07T00:00:00Z,Municipal,S.Deerfield WWTP,47669.5,1,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Greenfield WPCF,201497.155,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,S.Deerfield WWTP,445793.075,4,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Greenfield WPCF,92837.025,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Not Detected,2025-08-12T00:00:00Z,Municipal,Montague Clean Water Facility,83851.88,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Hull WWTF,534875.44,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-08-30T00:00:00Z,Municipal,South Hadley Div. of WPC,176444.44,2,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-08-30,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Plymouth Headworks Influent,76773.52,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Fitchburg Public Works,115332.1825,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,Wareham WPCF,169073.96,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Pittsfield WWTP,176066.835,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,S.Deerfield WWTP,429929.9566666667,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Greenfield WPCF,202852.01,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,Upper Blackstone Clean Water,155022.925,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,S.Deerfield WWTP,139112.55000000002,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Montague Clean Water Facility,49638.795,2,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Wareham WPCF,115233.7875,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Sunderland WWTP,455671.97,1,copies/L,Sunderland,MA,Franklin,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Not Detected,2025-07-15T00:00:00Z,Municipal,S.Deerfield WWTP,3314.816666666667,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,Sunderland WWTP,182526.17,1,copies/L,Sunderland,MA,Franklin,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,MFN Regional Wastewater District,204393.615,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-07-25T00:00:00Z,Municipal,SESD-Peabody Metering Station,130891.73666666665,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-25,current
+2025-2026,BioBot,Detected,2025-08-29T00:00:00Z,Municipal,MFN Regional Wastewater District,439920.57999999996,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-08-29,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,SESD-Peabody Metering Station,271748.51666666666,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Northampton WWTP,227833.46,1,copies/L,Northampton,MA,Hampshire,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Uxbridge WWTF,133161.97666666665,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Surfside WTF,1927778.17,1,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Not Detected,2025-09-02T00:00:00Z,Municipal,Surfside WTF,0,1,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Hull WWTF,745474.4199999999,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,Whitman,77991.41666666667,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Hull WWTF,2022591.1533333333,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,Springfield WWTP,279692.95999999996,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,Pittsfield WWTP,108376.69249999999,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Lynn WWTF,327582.77,2,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Hull WWTF,406161.22,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-07-18T00:00:00Z,Municipal,Pittsfield WWTP,159812.3975,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-18,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Hopedale WWTP,328524.27,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-07-27T00:00:00Z,Municipal,Brockton/ Abington,383409.8525,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-27,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Hopedale WWTP,308314.605,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Lynn WWTF,115723.7,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,Fitchburg Public Works,316526.6775,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Fall River WWTP,36897.386666666665,3,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Montague Clean Water Facility,515223,2,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Uxbridge WWTF,153489.37000000002,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,Montague Clean Water Facility,3327.476666666667,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Northbridge Sewer Department,406305,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,MFN Regional Wastewater District,821305.465,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Sunderland WWTP,26889.14,1,copies/L,Sunderland,MA,Franklin,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,Pittsfield WWTP,178812.625,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,Amherst WWTP,1349755.025,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Uxbridge WWTF,2089823.7566666666,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Lynn WWTF,119142.80333333334,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Montague Clean Water Facility,1283178.12,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Plymouth Headworks Influent,74959.125,2,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,Wareham WPCF,115810.785,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Hopedale WWTP,389295.575,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Plymouth Headworks Influent,103304.39,2,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Wareham WPCF,637219.265,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Plymouth Headworks Influent,283427.42,2,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Northampton WWTP,354765.11,1,copies/L,Northampton,MA,Hampshire,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-07-04T00:00:00Z,Municipal,MFN Regional Wastewater District,259099.37,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-07-04,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Hull WWTF,1511866.5833333333,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Whitman,502328.7075,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,Northampton WWTP,3595417.67,1,copies/L,Northampton,MA,Hampshire,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Montague Clean Water Facility,95251.98333333334,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Haverhill WWTP,137914.46333333335,3,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Surfside WTF,106595.74,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Surfside WTF,79627.735,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-06-29T00:00:00Z,Municipal,Upper Blackstone Clean Water,217595.1525,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-06-29,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Surfside WTF,28162.205,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Surfside WTF,1194.2,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Not Detected,2025-07-14T00:00:00Z,Municipal,Surfside WTF,26968.005,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Not Detected,2025-07-14T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Hull WWTF,171054.65666666665,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,Montague Clean Water Facility,191274.51,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Hopedale WWTP,184809.81,1,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,Plymouth Headworks Influent,161207.23,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,Whitman,128839.97,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Whitman,116589.25333333334,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-07-07T00:00:00Z,Municipal,MFN Regional Wastewater District,211552.15000000002,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,Hull WWTF,692400.7366666667,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-08-08T00:00:00Z,Municipal,Pittsfield WWTP,94727.545,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-08,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Northampton WWTP,58434.68,1,copies/L,Northampton,MA,Hampshire,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,S.Deerfield WWTP,147026.58333333334,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,Surfside WTF,511958.38,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,Surfside WTF,310259.205,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Not Detected,2025-07-28T00:00:00Z,Municipal,Surfside WTF,201699.175,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Not Detected,2025-07-28T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,Hull WWTF,394377.9266666666,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-07-06T00:00:00Z,Municipal,Brockton/ Abington,54638.93666666667,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-06,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,S.Deerfield WWTP,519135.63,2,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-08-01T00:00:00Z,Municipal,MFN Regional Wastewater District,76654.23999999999,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-08-01,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Billerica Treatment Plant,152567.26,1,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Fall River WWTP,12001.035,2,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,Hull WWTF,1026391.98,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,Whitman,122674.21666666667,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-09-07T00:00:00Z,Municipal,Brockton/ Abington,588746.2000000001,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-07,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Sunderland WWTP,96277.05,1,copies/L,Sunderland,MA,Franklin,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Not Detected,2025-07-10T00:00:00Z,Municipal,Surfside WTF,72218.91,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Not Detected,2025-07-10T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Surfside WTF,99186.91500000001,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Surfside WTF,26968.005,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,MFN Regional Wastewater District,157606.485,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-08-24T00:00:00Z,Municipal,Haverhill WWTP,161459.64666666664,3,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-24,current
+2025-2026,BioBot,Not Detected,2025-09-02T00:00:00Z,Municipal,S.Deerfield WWTP,26565.13,2,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Hull WWTF,139904.88,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Northampton WWTP,315878.28,1,copies/L,Northampton,MA,Hampshire,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-09-07T00:00:00Z,Municipal,Upper Blackstone Clean Water,1212250.77,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-09-07,current
+2025-2026,BioBot,Detected,2025-07-07T00:00:00Z,Municipal,Uxbridge WWTF,139354.57333333333,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Billerica Treatment Plant,370066.92,1,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,New Bedford WWTF,59699.34,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Not Detected,2025-07-08T00:00:00Z,Municipal,New Bedford WWTF,0,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,Fitchburg Public Works,65849.65999999999,3,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,Uxbridge WWTF,59203.712499999994,4,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Fitchburg Public Works,183399.06333333332,3,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,Pittsfield WWTP,208495.61399999997,5,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Whitman,1099236.9725,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Springfield WWTP,445781.93000000005,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-08-10T00:00:00Z,Municipal,Upper Blackstone Clean Water,662440.7374999999,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-10,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Montague Clean Water Facility,43498.259999999995,2,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-08-09T00:00:00Z,Municipal,South Hadley Div. of WPC,293912.885,2,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-08-09,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,480677.17000000004,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Brockton/ Abington,787375.2733333333,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Uxbridge WWTF,1674139.7433333334,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-08-22T00:00:00Z,Municipal,Pittsfield WWTP,276283.19,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-22,current
+2025-2026,BioBot,Detected,2025-08-23T00:00:00Z,Municipal,South Hadley Div. of WPC,257049.83000000002,2,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-08-23,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Springfield WWTP,306762.34,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Sunderland WWTP,608266.7,1,copies/L,Sunderland,MA,Franklin,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-08-15T00:00:00Z,Municipal,MFN Regional Wastewater District,199976.29499999998,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-08-15,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,Whitman,3309530.5275,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,Lynn WWTF,587497.505,2,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Hull WWTF,57129.81666666667,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Springfield WWTP,502260.34,1,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-07-11T00:00:00Z,Municipal,Pittsfield WWTP,112069.7175,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-11,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Surfside WTF,249881.72,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Surfside WTF,248647.9,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Surfside WTF,462188.06,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Not Detected,2025-09-11T00:00:00Z,Municipal,Surfside WTF,1233.82,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Not Detected,2025-09-11T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Not Detected,2025-09-11T00:00:00Z,Municipal,Surfside WTF,213540.16,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Surfside WTF,4634.985,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Surfside WTF,3401.165,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Surfside WTF,216941.325,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-07-25T00:00:00Z,Municipal,MFN Regional Wastewater District,205042.405,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-07-25,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,Fitchburg Public Works,125114.5275,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,South Hadley Div. of WPC,183696.915,2,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-07-13T00:00:00Z,Municipal,Upper Blackstone Clean Water,129357.4875,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-13,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,Montague Clean Water Facility,24422.543333333335,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Wareham WPCF,135539.165,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Hull WWTF,3260780.5866666664,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Billerica Treatment Plant,137794.885,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-08-10T00:00:00Z,Municipal,Fall River WWTP,71277.19666666667,3,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-08-10,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Wareham WPCF,154177.2975,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Not Detected,2025-07-21T00:00:00Z,Municipal,Surfside WTF,437245.48,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Not Detected,2025-07-21T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Not Detected,2025-07-21T00:00:00Z,Municipal,Surfside WTF,4608.66,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,Surfside WTF,471376.88,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,Surfside WTF,34131.4,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,Surfside WTF,38740.06,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Surfside WTF,164473.595,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Surfside WTF,54123.115,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Not Detected,2025-08-04T00:00:00Z,Municipal,Surfside WTF,110350.48,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Not Detected,2025-08-04T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,Springfield WWTP,449002.55999999994,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,Pittsfield WWTP,228961.31,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Wareham WPCF,952232.395,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Whitman,3966161.4066666667,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Wareham WPCF,260943.83666666667,3,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Fitchburg Public Works,542256.35,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,Montague Clean Water Facility,174816.71333333335,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Greenfield WPCF,289510.8,1,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Whitman,654082.7225,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-07-07T00:00:00Z,Municipal,Pittsfield WWTP,146497.74000000002,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Detected,2025-08-10T00:00:00Z,Municipal,Haverhill WWTP,213100.27,4,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-10,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Greenfield WPCF,156505.47499999998,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,Hull WWTF,327586.3133333333,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Hopedale WWTP,850724.0900000001,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Surfside WTF,917665.865,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Surfside WTF,315206.96,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Greenfield WPCF,407475.05000000005,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Not Detected,2025-08-18T00:00:00Z,Municipal,Surfside WTF,602458.905,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Not Detected,2025-08-18T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Uxbridge WWTF,2211615.4699999997,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Pittsfield WWTP,350759.21666666673,3,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Not Detected,2025-07-14T00:00:00Z,Municipal,Montague Clean Water Facility,0,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-07-03T00:00:00Z,Municipal,Plymouth Headworks Influent,73257.135,2,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-03,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Upper Blackstone Clean Water,125559.155,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Pittsfield WWTP,363117.12749999994,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-09-01T00:00:00Z,Municipal,Hopedale WWTP,1836776.63,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-09-01,current
+2025-2026,BioBot,Detected,2025-07-20T00:00:00Z,Municipal,Fall River WWTP,25152.8575,4,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-20,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Uxbridge WWTF,353262.51666666666,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Not Detected,2025-07-22T00:00:00Z,Municipal,New Bedford WWTF,0,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,New Bedford WWTF,119634.24,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,S.Deerfield WWTP,127334.305,2,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,South Hadley Div. of WPC,767266.3800000001,2,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Billerica Treatment Plant,264711.46,1,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,South Hadley Div. of WPC,205820.54499999998,2,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Sunderland WWTP,716044.57,1,copies/L,Sunderland,MA,Franklin,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,MFN Regional Wastewater District,100354.365,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Lynn WWTF,219945.20999999996,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Haverhill WWTP,399433.1766666666,3,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Haverhill WWTP,355111.6666666667,3,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,South Hadley Div. of WPC,78484.01,1,copies/L,Chicopee,MA,Hampden,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Plymouth Headworks Influent,218950.35,2,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-07-07T00:00:00Z,Municipal,Whitman,64299.51,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,New Bedford WWTF,24431.16,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Not Detected,2025-07-01T00:00:00Z,Municipal,New Bedford WWTF,0,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Uxbridge WWTF,361582.38999999996,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,Brockton/ Abington,185211.39750000002,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Plymouth Headworks Influent,371996.0933333333,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-08-03T00:00:00Z,Municipal,Fall River WWTP,40952.5325,4,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-08-03,current
+2025-2026,BioBot,Detected,2025-07-07T00:00:00Z,Municipal,Upper Blackstone Clean Water,100186.48250000001,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,Lynn WWTF,280207.24,2,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-08-10T00:00:00Z,Municipal,Brockton/ Abington,533288.6950000001,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-10,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Greenfield WPCF,300736.29000000004,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-08-29T00:00:00Z,Municipal,Amherst WWTP,218141.29499999998,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-08-29,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,Pittsfield WWTP,136801.465,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,New Bedford WWTF,312102.75,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Not Detected,2025-08-26T00:00:00Z,Municipal,New Bedford WWTF,0,1,copies/L,New Bedford,MA,Bristol,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-07-07T00:00:00Z,Municipal,Brockton/ Abington,173082.03,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,Plymouth Headworks Influent,149486.83000000002,4,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,Fall River WWTP,69509.79,3,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Lynn WWTF,498400.37,2,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Plymouth Headworks Influent,151282.15666666665,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Whitman,1013177.94,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Surfside WTF,962805.74,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Surfside WTF,647598.78,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Not Detected,2025-08-21T00:00:00Z,Municipal,Surfside WTF,315206.96,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Not Detected,2025-08-21T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Surfside WTF,317115.085,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Surfside WTF,1908.125,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Hopedale WWTP,62539.705,2,copies/L,Hopedale,MA,Worcester,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,Pittsfield WWTP,69493.75,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,Haverhill WWTP,214105.8825,4,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,Uxbridge WWTF,340512.32666666666,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,Northbridge Sewer Department,336493.8,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,Pittsfield WWTP,102010.8525,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,Whitman,100981.28499999999,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-08-24T00:00:00Z,Municipal,Upper Blackstone Clean Water,1050665.905,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-24,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Hull WWTF,103536.35666666667,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-07-27T00:00:00Z,Municipal,Fall River WWTP,20993.3125,4,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-27,current
+2025-2026,BioBot,Detected,2025-09-12T00:00:00Z,Municipal,Whitman,630815.4533333333,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-12,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,Plymouth Headworks Influent,302108.04,2,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,Fall River WWTP,25432.0075,4,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Northbridge Sewer Department,408554.785,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,Upper Blackstone Clean Water,842742.4550000001,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,Fitchburg Public Works,256402.9425,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Amherst WWTP,102661.12,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,Montague Clean Water Facility,281835.78250000003,4,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Greenfield WPCF,344163.04500000004,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-07-11T00:00:00Z,Municipal,MFN Regional Wastewater District,167026.49,2,copies/L,Norton,MA,Bristol,2025-09-18T00:00:00Z,2025-07-11,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,Surfside WTF,25476.95,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,Surfside WTF,235070.11500000002,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Not Detected,2025-06-30T00:00:00Z,Municipal,Surfside WTF,0,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Not Detected,2025-06-30T00:00:00Z,Municipal,Surfside WTF,209593.165,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,Surfside WTF,2489.83,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,Surfside WTF,212082.995,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Springfield WWTP,123207.705,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,Fitchburg Public Works,330453.16,1,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,635166.58,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,MWRA Northern,80043.14571428571,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,MWRA Southern,334305.5214285715,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-08-23T00:00:00Z,Municipal,MWRA Northern,269540.02285714285,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-23,current
+2025-2026,BioBot,Detected,2025-09-06T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,550380.2525,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-09-06,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,MWRA Southern,240902.27428571432,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,Brockton/ Abington,349439.6875,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-08-09T00:00:00Z,Municipal,MWRA Northern,211813.8971428571,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-09,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,MWRA Southern,297901.48,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-09-01T00:00:00Z,Municipal,MWRA Southern,362188.01285714284,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-01,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Whitman,553479.1224999999,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,SESD-Peabody Metering Station,141634.5575,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,MWRA Northern,153046.5957142857,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-09-01T00:00:00Z,Municipal,MWRA Northern,290204.9,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-01,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Plymouth Headworks Influent,39848.666666666664,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,MWRA Northern,121580.58714285713,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,MWRA Southern,138184.4985714286,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Upper Blackstone Clean Water,290149.42000000004,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-08-01T00:00:00Z,Municipal,SESD-Peabody Metering Station,282758.475,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-01,current
+2025-2026,BioBot,Detected,2025-09-06T00:00:00Z,Municipal,MWRA Southern,315625.58571428567,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-06,current
+2025-2026,BioBot,Detected,2025-07-12T00:00:00Z,Municipal,MWRA Northern,78559.36142857141,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-12,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Fall River WWTP,49295.54333333333,3,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-08-15T00:00:00Z,Municipal,MWRA Northern,271907.57714285713,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-15,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,Fall River WWTP,27057.1425,4,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,MWRA Southern,111430.71857142856,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-08-17T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,359393.58749999997,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-17,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,MWRA Northern,242387.02857142856,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Upper Blackstone Clean Water,700335.785,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Wareham WPCF,234321.94499999998,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,MWRA Northern,288580.6171428571,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-08-03T00:00:00Z,Municipal,MWRA Northern,146931.8657142857,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-03,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Wareham WPCF,61547.7325,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,Uxbridge WWTF,2133215.0066666664,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-07-19T00:00:00Z,Municipal,MWRA Northern,117859.06857142855,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-19,current
+2025-2026,BioBot,Detected,2025-08-15T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,269218.9875,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-15,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,MWRA Northern,294724.58142857143,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Uxbridge WWTF,134084.85,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,Fitchburg Public Works,485493.98749999993,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Whitman,186861.425,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-07-12T00:00:00Z,Municipal,MWRA Southern,93083.8642857143,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-12,current
+2025-2026,BioBot,Detected,2025-08-15T00:00:00Z,Municipal,MWRA Southern,268243.34714285715,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-15,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Whitman,209774.14500000002,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,MWRA Southern,239961.27999999997,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,S.Deerfield WWTP,589106.4966666667,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-06-29T00:00:00Z,Municipal,MWRA Northern,120034.96857142856,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-06-29,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Lynn WWTF,84019.37666666666,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Uxbridge WWTF,724178.86,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,MWRA Northern,296408.4,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Billerica Treatment Plant,205349.25666666668,3,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-09-07T00:00:00Z,Municipal,MWRA Southern,307380.83285714284,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-07,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Montague Clean Water Facility,149449.18999999997,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Billerica Treatment Plant,117452.035,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,SESD-Peabody Metering Station,3272541.4625,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Fitchburg Public Works,230838.8975,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-07-05T00:00:00Z,Municipal,MWRA Southern,104836.09999999999,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-05,current
+2025-2026,BioBot,Detected,2025-08-22T00:00:00Z,Municipal,Greenfield WPCF,207417.215,2,copies/L,Greenfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-22,current
+2025-2026,BioBot,Detected,2025-08-16T00:00:00Z,Municipal,MWRA Southern,271992.41,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-16,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,115623.67,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Montague Clean Water Facility,124648.255,4,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Amherst WWTP,171756.62,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,MWRA Northern,74389.24857142857,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-07-11T00:00:00Z,Municipal,MWRA Northern,79882.63142857142,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-11,current
+2025-2026,BioBot,Detected,2025-07-07T00:00:00Z,Municipal,MWRA Northern,83798.37000000001,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Plymouth Headworks Influent,209206.50666666668,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-07-20T00:00:00Z,Municipal,SESD-Peabody Metering Station,228797.59000000003,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-20,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Fall River WWTP,34042.73,3,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,MWRA Northern,291161.8142857143,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Brockton/ Abington,429557.3625,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-08-31T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,826175.915,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-31,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,Upper Blackstone Clean Water,795885.9166666666,3,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-08-01T00:00:00Z,Municipal,MWRA Northern,136395.51714285713,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-01,current
+2025-2026,BioBot,Detected,2025-08-04T00:00:00Z,Municipal,MWRA Southern,208301.24,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-04,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,MWRA Southern,293690.2,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-07-28T00:00:00Z,Municipal,MWRA Northern,144104.54428571428,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-28,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Uxbridge WWTF,295390.37666666665,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Hull WWTF,430928.8733333333,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-09-07T00:00:00Z,Municipal,MWRA Northern,307133.14999999997,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-07,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,444805.5725,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,Billerica Treatment Plant,9477656.555,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,Brockton/ Abington,743204.605,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-07-04T00:00:00Z,Municipal,MWRA Northern,98766.06714285715,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-04,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,MWRA Southern,336071.26285714284,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,S.Deerfield WWTP,126286.68666666666,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,Wareham WPCF,1012015.8375,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Fall River WWTP,9734.963333333333,3,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-08-03T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,129182.70800000001,5,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-03,current
+2025-2026,BioBot,Not Detected,2025-08-03T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,96607.63200000001,5,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-03,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Upper Blackstone Clean Water,353720.84,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,MWRA Southern,101148.42571428571,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Whitman,4754843.44,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Pittsfield WWTP,185141.37,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,MWRA Northern,110279.23285714285,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Pittsfield WWTP,183244.61250000002,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,96452.755,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Haverhill WWTP,206537.0975,4,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-08-29T00:00:00Z,Municipal,SESD-Peabody Metering Station,656998.7066666667,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-29,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Upper Blackstone Clean Water,490062.4125,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Pittsfield WWTP,343589.68749999994,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Wareham WPCF,131517.97,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,SESD-Peabody Metering Station,199734.74750000003,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-08-24T00:00:00Z,Municipal,MWRA Southern,356481.7942857143,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-24,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Whitman,96902.06666666667,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,MWRA Northern,298325.87,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-25,current
+2025-2026,BioBot,Detected,2025-08-23T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,469941.0925,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-23,current
+2025-2026,BioBot,Detected,2025-08-31T00:00:00Z,Municipal,SESD-Peabody Metering Station,633080.0700000001,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-31,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,Uxbridge WWTF,710268.2966666665,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-08-22T00:00:00Z,Municipal,MWRA Northern,299345.85142857145,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-22,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,Fall River WWTP,48452.93666666667,3,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-07-04T00:00:00Z,Municipal,MWRA Southern,102176.53428571428,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-04,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,S.Deerfield WWTP,10622.276666666667,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-09-05T00:00:00Z,Municipal,MWRA Southern,343600.22428571427,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-05,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Fitchburg Public Works,150765.88,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Fitchburg Public Works,207053.84,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,MWRA Northern,158205.5142857143,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-08-16T00:00:00Z,Municipal,MWRA Northern,301768.96,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-16,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Upper Blackstone Clean Water,122977.65,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-07-06T00:00:00Z,Municipal,MWRA Northern,96262.99714285714,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-06,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Uxbridge WWTF,1018186.8133333334,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,MWRA Northern,282724.91571428574,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Upper Blackstone Clean Water,97389.14,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,Wareham WPCF,856285.0900000001,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-08-31T00:00:00Z,Municipal,MWRA Northern,295086.83571428567,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-31,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Plymouth Headworks Influent,187987.94000000003,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-07-25T00:00:00Z,Municipal,Plymouth Headworks Influent,146261.12999999998,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-25,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Pittsfield WWTP,195117.08250000002,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Billerica Treatment Plant,273385.735,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-07-03T00:00:00Z,Municipal,MWRA Northern,101205.55285714286,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-03,current
+2025-2026,BioBot,Detected,2025-07-12T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,133213.5875,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-12,current
+2025-2026,BioBot,Detected,2025-08-08T00:00:00Z,Municipal,MWRA Northern,190697.20857142852,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-08,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Billerica Treatment Plant,154499.99,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-07-04T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,143028.62,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-04,current
+2025-2026,BioBot,Detected,2025-08-22T00:00:00Z,Municipal,MWRA Southern,345697.0085714286,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-22,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,129461.32,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,MWRA Northern,319831.72571428574,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Pittsfield WWTP,317397.5475,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Pittsfield WWTP,95980.852,5,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Hull WWTF,3395524.9499999997,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,Wareham WPCF,200732.19,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,MWRA Northern,331722.63999999996,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Springfield WWTP,309260.20999999996,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Brockton/ Abington,460489.4550000001,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Upper Blackstone Clean Water,1120986.17,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,Upper Blackstone Clean Water,681395.4375,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Wareham WPCF,65918.702,5,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Whitman,129566.86,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-07-07T00:00:00Z,Municipal,MWRA Southern,117703.16857142856,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-07,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Springfield WWTP,151286.655,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,MWRA Northern,182244.08,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Upper Blackstone Clean Water,120558.0975,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-07-27T00:00:00Z,Municipal,MWRA Northern,139483.27714285714,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-27,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,MWRA Southern,218911.5157142857,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,MWRA Northern,123872.39142857143,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,MWRA Southern,113829.56714285712,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-07-13T00:00:00Z,Municipal,MWRA Southern,80161.94857142857,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-13,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,SESD-Peabody Metering Station,864292.0825,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,MWRA Southern,123419.71142857142,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Brockton/ Abington,294489.2375,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,94617.85750000001,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-09-05T00:00:00Z,Municipal,Pittsfield WWTP,113086.4675,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-09-05,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Whitman,1932067.915,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-08-31T00:00:00Z,Municipal,MWRA Southern,341807.9514285714,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-31,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,SESD-Peabody Metering Station,403358.7125,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Hull WWTF,189984.29333333333,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Not Detected,2025-07-09T00:00:00Z,Municipal,Montague Clean Water Facility,0,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,MWRA Northern,302672.25,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,SESD-Peabody Metering Station,243602.36250000002,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,MWRA Northern,310923.34428571427,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Brockton/ Abington,778192.7766666667,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-07-25T00:00:00Z,Municipal,MWRA Northern,132038.38142857142,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-25,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,MWRA Southern,144106.61285714284,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-08-17T00:00:00Z,Municipal,SESD-Peabody Metering Station,259857.26750000002,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-17,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,SESD-Peabody Metering Station,364828.75,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-07-03T00:00:00Z,Municipal,Springfield WWTP,158648.86,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-07-03,current
+2025-2026,BioBot,Detected,2025-07-06T00:00:00Z,Municipal,SESD-Peabody Metering Station,303532.50333333336,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-06,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,MWRA Northern,136344.14285714287,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,SESD-Peabody Metering Station,449252.075,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-08-10T00:00:00Z,Municipal,MWRA Southern,222806.13142857145,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-10,current
+2025-2026,BioBot,Detected,2025-08-30T00:00:00Z,Municipal,MWRA Southern,337475.8685714286,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-30,current
+2025-2026,BioBot,Detected,2025-08-23T00:00:00Z,Municipal,MWRA Southern,349847.3028571429,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-23,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,Brockton/ Abington,54688.34,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-06-30T00:00:00Z,Municipal,MWRA Southern,115332.46571428572,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-06-30,current
+2025-2026,BioBot,Detected,2025-08-11T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,257689.3625,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-11,current
+2025-2026,BioBot,Detected,2025-07-18T00:00:00Z,Municipal,MWRA Northern,118550.49714285713,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-18,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Fall River WWTP,26809.775,4,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Lynn WWTF,80654.99333333333,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,MWRA Northern,273380.53714285715,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Uxbridge WWTF,302314.19,2,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-08-26T00:00:00Z,Municipal,Haverhill WWTP,149381.99,3,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-26,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,160481.345,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,201200.19,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-06-29T00:00:00Z,Municipal,Fall River WWTP,23058.04,5,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-06-29,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Uxbridge WWTF,56785.829999999994,4,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,MWRA Southern,342847.83571428567,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Brockton/ Abington,333029.625,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,MWRA Northern,376681.72571428574,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Wareham WPCF,97455.2875,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,Upper Blackstone Clean Water,853475.7225,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,MWRA Southern,97559.24571428569,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Fitchburg Public Works,321357.11333333334,3,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Not Detected,2025-09-04T00:00:00Z,Municipal,Surfside WTF,963889.085,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Surfside WTF,1368405.39,2,copies/L,Nantucket,MA,Nantucket,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-08-02T00:00:00Z,Municipal,MWRA Northern,133957.24,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-02,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Haverhill WWTP,235410.9025,4,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,MWRA Southern,115342.66714285714,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,Brockton/ Abington,527794.0700000001,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Upper Blackstone Clean Water,634745.03,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Amherst WWTP,981839.58,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,Brockton/ Abington,376134.60750000004,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-07-11T00:00:00Z,Municipal,MWRA Southern,96257.41285714287,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-11,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,Upper Blackstone Clean Water,290133.6425,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-07-06T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,174419.705,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-06,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,MWRA Southern,106301.43428571429,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Amherst WWTP,66043.57,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Springfield WWTP,341557.065,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-08-05T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,156342.515,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-05,current
+2025-2026,BioBot,Detected,2025-08-10T00:00:00Z,Municipal,MWRA Northern,234580.2742857143,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-10,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,MWRA Northern,119494.37428571426,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,SESD-Peabody Metering Station,253794.30333333334,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Pittsfield WWTP,124254.7225,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-06-29T00:00:00Z,Municipal,MWRA Southern,122037.27428571427,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-06-29,current
+2025-2026,BioBot,Detected,2025-09-03T00:00:00Z,Municipal,MWRA Southern,338130.4528571428,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-03,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,MWRA Northern,241489.11000000002,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Haverhill WWTP,320614.775,4,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Haverhill WWTP,287373.6425,4,copies/L,Haverhill,MA,Essex,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-08-29T00:00:00Z,Municipal,MWRA Southern,301265.9,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-29,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Fitchburg Public Works,186711.8125,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,Upper Blackstone Clean Water,864244.9099999999,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-08-30T00:00:00Z,Municipal,MWRA Northern,288825.71142857143,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-30,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,Montague Clean Water Facility,2287696.2033333336,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,Springfield WWTP,354976.05000000005,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Brockton/ Abington,716562.7133333334,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,399923.775,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,MWRA Southern,326306.04714285716,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Whitman,1009261.1525,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-07-19T00:00:00Z,Municipal,MWRA Southern,149925.23142857145,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-19,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,MWRA Northern,276252.88999999996,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,SESD-Peabody Metering Station,555716.89,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,MWRA Northern,122671.20999999999,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Montague Clean Water Facility,355107.86333333334,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-09-08T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,504567.6674999999,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-09-08,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,MWRA Northern,125883.31428571428,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-08-09T00:00:00Z,Municipal,MWRA Southern,241345.39857142858,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-09,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,Wareham WPCF,221444.5575,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,255267.5525,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,MWRA Southern,136877.83285714287,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Fall River WWTP,25920.62,4,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,SESD-Peabody Metering Station,890634.68,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-07-20T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,878790.8875000001,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-20,current
+2025-2026,BioBot,Detected,2025-07-20T00:00:00Z,Municipal,MWRA Northern,119896.08428571429,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-20,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Fall River WWTP,39830.6,5,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,Billerica Treatment Plant,369083.48,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,Brockton/ Abington,319264.97,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,673306.105,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,MWRA Northern,166267.65142857144,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Fall River WWTP,27690.417999999998,5,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Upper Blackstone Clean Water,280460.54000000004,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,183391.225,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,Montague Clean Water Facility,499781.6833333333,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-08-17T00:00:00Z,Municipal,MWRA Southern,283648.46857142856,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-17,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Whitman,280937.2,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,SESD-Peabody Metering Station,291475.44999999995,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,MWRA Northern,118605.97714285714,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-08-02T00:00:00Z,Municipal,MWRA Southern,198568.2142857143,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-02,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,Whitman,1198953.9,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,Hull WWTF,276301.34,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,206685.36,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Hull WWTF,1108985.6466666667,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-08-09T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,211792.8175,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-09,current
+2025-2026,BioBot,Detected,2025-08-09T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,252511.6625,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-09,current
+2025-2026,BioBot,Detected,2025-09-09T00:00:00Z,Municipal,Upper Blackstone Clean Water,2017094.2574999998,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-09-09,current
+2025-2026,BioBot,Detected,2025-07-23T00:00:00Z,Municipal,MWRA Northern,129728.7642857143,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-23,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,Upper Blackstone Clean Water,136491.8825,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,742113.9933333333,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,MWRA Northern,329118.72142857144,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,Brockton/ Abington,346760.39749999996,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,Upper Blackstone Clean Water,2155313.8274999997,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,Whitman,538891.62,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,Northbridge Sewer Department,68478.655,2,copies/L,Northbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,MWRA Southern,237125.65714285715,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Fitchburg Public Works,500692.895,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-07-27T00:00:00Z,Municipal,MWRA Southern,201288.76714285716,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-27,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Brockton/ Abington,154809.635,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,S.Deerfield WWTP,25307.11333333333,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-08-06T00:00:00Z,Municipal,MWRA Southern,210701.3257142857,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-06,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,Wareham WPCF,758574.565,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-08-09T00:00:00Z,Municipal,SESD-Peabody Metering Station,442817.80666666664,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-09,current
+2025-2026,BioBot,Detected,2025-08-19T00:00:00Z,Municipal,MWRA Southern,314205.51857142855,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-19,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,163461.885,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-07-01T00:00:00Z,Municipal,Upper Blackstone Clean Water,107689.8425,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-07-01,current
+2025-2026,BioBot,Detected,2025-08-17T00:00:00Z,Municipal,MWRA Northern,283573.5185714286,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-17,current
+2025-2026,BioBot,Detected,2025-08-01T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,128356.46200000001,5,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-01,current
+2025-2026,BioBot,Detected,2025-08-12T00:00:00Z,Municipal,Fall River WWTP,55697.58,4,copies/L,Fall River,MA,Bristol,2025-09-18T00:00:00Z,2025-08-12,current
+2025-2026,BioBot,Detected,2025-07-30T00:00:00Z,Municipal,Uxbridge WWTF,147434.67666666667,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-07-30,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,MWRA Northern,263026.79,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Whitman,252540.7575,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Hull WWTF,65811.21,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,S.Deerfield WWTP,167679.87333333332,3,copies/L,Deerfield,MA,Franklin,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-08-21T00:00:00Z,Municipal,Springfield WWTP,1042841.165,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-08-21,current
+2025-2026,BioBot,Detected,2025-07-29T00:00:00Z,Municipal,MWRA Northern,139616.78999999998,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-29,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,SESD-Peabody Metering Station,186562.675,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,Fitchburg Public Works,669088.4400000001,3,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-07-17T00:00:00Z,Municipal,Springfield WWTP,101330.305,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-07-17,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,Pittsfield WWTP,292724.82,4,copies/L,Pittsfield,MA,Berkshire,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Springfield WWTP,243487.16499999998,2,copies/L,Agawam,MA,Hampden,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Hull WWTF,613610.8866666667,3,copies/L,Hull,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,MWRA Southern,231413.6371428571,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-08-13T00:00:00Z,Municipal,Montague Clean Water Facility,95677.52666666667,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-08-13,current
+2025-2026,BioBot,Detected,2025-07-04T00:00:00Z,Municipal,SESD-Peabody Metering Station,247481.9733333333,3,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-04,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Plymouth Headworks Influent,340813.505,4,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Wareham WPCF,580383.1633333334,3,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-08-03T00:00:00Z,Municipal,MWRA Southern,220897.75285714286,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-03,current
+2025-2026,BioBot,Detected,2025-09-05T00:00:00Z,Municipal,MWRA Northern,331573.2057142857,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-05,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,Wareham WPCF,217584.795,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-08-18T00:00:00Z,Municipal,MWRA Southern,301062.5028571429,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-18,current
+2025-2026,BioBot,Detected,2025-07-21T00:00:00Z,Municipal,MWRA Southern,136375.73142857142,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-21,current
+2025-2026,BioBot,Not Detected,2025-09-04T00:00:00Z,Municipal,Fitchburg Public Works,306271.48333333334,3,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-07-22T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,824864.2125,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-22,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,Brockton/ Abington,194596.4975,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-08-29T00:00:00Z,Municipal,MWRA Northern,288288.3528571428,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-29,current
+2025-2026,BioBot,Detected,2025-07-10T00:00:00Z,Municipal,SESD-Peabody Metering Station,165309.925,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-10,current
+2025-2026,BioBot,Detected,2025-07-09T00:00:00Z,Municipal,Fitchburg Public Works,68865.99333333333,3,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-09,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Montague Clean Water Facility,459299.1366666667,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-07-24T00:00:00Z,Municipal,MWRA Southern,154543.86000000002,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-24,current
+2025-2026,BioBot,Detected,2025-07-14T00:00:00Z,Municipal,MWRA Northern,102804.52857142857,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-14,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,MWRA Southern,125892.78857142855,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-07-16T00:00:00Z,Municipal,Montague Clean Water Facility,10552.87,3,copies/L,Montague,MA,Franklin,2025-09-18T00:00:00Z,2025-07-16,current
+2025-2026,BioBot,Detected,2025-09-11T00:00:00Z,Municipal,Fitchburg Public Works,672249.3025,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-09-11,current
+2025-2026,BioBot,Detected,2025-08-20T00:00:00Z,Municipal,Billerica Treatment Plant,406737.185,2,copies/L,Billerica,MA,Middlesex,2025-09-18T00:00:00Z,2025-08-20,current
+2025-2026,BioBot,Detected,2025-07-13T00:00:00Z,Municipal,MWRA Northern,89795.83142857142,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-07-13,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Amherst WWTP,163337.02000000002,2,copies/L,Hadley,MA,Hampshire,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-07-12T00:00:00Z,Municipal,SESD-Peabody Metering Station,179429.10749999998,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-07-12,current
+2025-2026,BioBot,Detected,2025-08-28T00:00:00Z,Municipal,MWRA Northern,261374.83428571426,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-28,current
+2025-2026,BioBot,Detected,2025-08-27T00:00:00Z,Municipal,Upper Blackstone Clean Water,926610.865,4,copies/L,Worcester,MA,Worcester,2025-09-18T00:00:00Z,2025-08-27,current
+2025-2026,BioBot,Detected,2025-09-06T00:00:00Z,Municipal,MWRA Northern,320418.43714285706,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-06,current
+2025-2026,BioBot,Detected,2025-07-31T00:00:00Z,Municipal,Lynn WWTF,167369.15000000002,3,copies/L,Lynn,MA,Essex,2025-09-18T00:00:00Z,2025-07-31,current
+2025-2026,BioBot,Detected,2025-09-10T00:00:00Z,Municipal,Uxbridge WWTF,1876183.156666667,3,copies/L,Uxbridge,MA,Worcester,2025-09-18T00:00:00Z,2025-09-10,current
+2025-2026,BioBot,Detected,2025-07-15T00:00:00Z,Municipal,Brockton/ Abington,168739.55000000002,4,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-15,current
+2025-2026,BioBot,Detected,2025-09-02T00:00:00Z,Municipal,MWRA Southern,369299.24428571423,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-09-02,current
+2025-2026,BioBot,Detected,2025-09-04T00:00:00Z,Municipal,Plymouth Headworks Influent,125275.95333333332,3,copies/L,Plymouth,MA,Plymouth,2025-09-18T00:00:00Z,2025-09-04,current
+2025-2026,BioBot,Detected,2025-08-14T00:00:00Z,Municipal,Fitchburg Public Works,303603.1133333333,3,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-08-14,current
+2025-2026,BioBot,Detected,2025-07-25T00:00:00Z,Municipal,Wareham WPCF,173462.4175,4,copies/L,Wareham,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-25,current
+2025-2026,BioBot,Detected,2025-07-02T00:00:00Z,Municipal,Fitchburg Public Works,184856.13,4,copies/L,Fitchburg,MA,Worcester,2025-09-18T00:00:00Z,2025-07-02,current
+2025-2026,BioBot,Detected,2025-08-07T00:00:00Z,Municipal,MWRA Southern,223150.5514285714,7,copies/L,Winthrop,MA,Suffolk,2025-09-18T00:00:00Z,2025-08-07,current
+2025-2026,BioBot,Detected,2025-07-08T00:00:00Z,Municipal,Brockton/ Abington,192676.65000000002,3,copies/L,Brockton,MA,Plymouth,2025-09-18T00:00:00Z,2025-07-08,current
+2025-2026,BioBot,Detected,2025-08-25T00:00:00Z,Municipal,SESD-Peabody/Salem Pump,428752.58249999996,4,copies/L,Salem,MA,Essex,2025-09-18T00:00:00Z,2025-08-25,current

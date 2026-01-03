@@ -254,21 +254,48 @@ smooth_groups <- full_sample %>%
 dfsys <- data.frame(matrix(ncol = ncol(full_sample)))[-1,]
 colnames(dfsys) <- names(full_sample)
 summ_temp <- data.frame(max_date = NA, system = NA, smooth_group = NA, note = NA)[-1,]
-# loop through counties
+
+# initialize tracking vector
+failed_groups <- character()
+
+# loop through smooth_groups
 for (i in seq_along(smooth_groups$group)){
-  # create smooths
-  temp <- smooth_operator(full_sample %>% filter(date > max(date) - years(time_years)) %>% filter(smooth_group == smooth_groups$group[i]), time_years=1)
-  # qc <- temp %>% select(date, smooth_group)
-  dfsys <- rbind(dfsys, temp)
-  # create summary annotations by system
-  tempnote <- data.frame(max_date = max(temp$date),
-                         system = smooth_groups$system[i], 
-                         smooth_group = smooth_groups$group[i],
-                         note = 
-                           paste0(max(temp$date),"\nWVA level: ",  
-                                  temp %>% arrange(date) %>% pull(wva_lvl) %>%  last() %>% as.character(),"\nWVA score: ",  temp %>% arrange(date) %>% pull(wva_score) %>%  last() %>% as.character()))
-  summ_temp <- rbind(summ_temp, tempnote)
-  # create dataframe of thresholds to pass to hline
+  tryCatch({
+    # create smooths
+    temp <- smooth_operator(
+      full_sample %>% 
+        filter(date > max(date) - years(time_years)) %>% 
+        filter(smooth_group == smooth_groups$group[i]), 
+      time_years = 1
+    )
+    
+    # add new smooth data to output
+    dfsys <- rbind(dfsys, temp)
+    
+    # create summary annotations by system
+    tempnote <- data.frame(
+      max_date = max(temp$date),
+      system = smooth_groups$system[i], 
+      smooth_group = smooth_groups$group[i],
+      note = paste0(
+        max(temp$date), "\nWVA level: ",  
+        temp %>% arrange(date) %>% pull(wva_lvl) %>% last() %>% as.character(),
+        "\nWVA score: ",  
+        temp %>% arrange(date) %>% pull(wva_score) %>% last() %>% as.character()
+      )
+    )
+    summ_temp <- rbind(summ_temp, tempnote)
+    
+  }, error = function(e) {
+    failed_groups <<- c(failed_groups, smooth_groups$group[i])
+    message("Skipping group ", smooth_groups$group[i], ": ", e$message)
+  })
+}
+
+# optional: print summary at the end
+if (length(failed_groups) > 0) {
+  message("\nFailed groups (", length(failed_groups), "): ", 
+          paste(failed_groups, collapse = ", "))
 }
 # extract most recent system level information (discarding update from older runs)
 summ <- summ_temp %>% group_by(system) %>% slice_max(max_date, n=1)
@@ -299,6 +326,15 @@ systems_plot <-
   theme(plot.title = element_text(size=12)) +
   facet_wrap(~system, ncol=3) +
     scale_x_date(date_labels = "%b\n%Y")
+
+plot_title_syst <- paste0("wma_wastewater_", max(dfreg$date), "_systems", ".tiff")
+width = 1992*1.25
+height = 1200*1.25
+
+ggsave(systems_plot, path = here("plots/"), filename = plot_title_syst,
+       width = width, height = height, units = "px", bg="white")
+
+
 ```
 
  <font size="5">Individual System Concentration and Wastewater Viral Activity Level</font>
@@ -317,5 +353,6 @@ plot(systems_plot)
 • Wastewater data access: https://www.mass.gov/info-details/wastewater-surveillance-reporting  
 • Population weights are from various sources (EPA estimates whenever available).  
 <br><br>
-**If you have the means, you can buy me a coffee here.** https://ko-fi.com/raughter. <br>
-**No presh. Stay safe <3**
+**If you have the means, you can buy me a coffee here** https://ko-fi.com/raughter. <br>
+**You can find my writing here** https://cultureofhomecoming.substack.com/ <br>
+**Stay safe, y'all <3**

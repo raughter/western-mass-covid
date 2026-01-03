@@ -1,0 +1,322 @@
+---
+title: "COVID Wastewater Surveillance for Western Massachusetts"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r Setup, echo=FALSE, message=FALSE, warning=FALSE}
+
+```
+
+```{r Download and process, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+library(tidyverse)
+library(here)
+library(lubridate)
+library(ggthemes)
+library(scales)
+library(patchwork)
+library(readxl)
+library(ggtext)
+options(scipen = 999)
+source("wva_calculator.R")
+source("mytheme.R")
+
+### Download and initial cleaning ----
+
+url_current <- "https://www.mass.gov/doc/wastewater-dashboard-data/download"
+url_arch23 <- "https://www.mass.gov/doc/2023-2024-archived-wastewater-dashboard-data/download"
+url_arch24 <- "https://www.mass.gov/doc/archived-wastewater-surveillance-dashboard-data-2024-2025/download"
+
+download.file(url_current, destfile = "sample_current.xlsx", mode = "wb")
+download.file(url_arch23, destfile = "sample_arch23.xlsx", mode = "wb")
+download.file(url_arch24, destfile = "sample_arch24.xlsx", mode = "wb")
+
+
+raw_sample_current <-
+  read_excel(path = "sample_current.xlsx", sheet = "Wastewater Testing Data") %>%
+  rename_all(~ str_to_lower(.)) %>%
+  rename_all( ~ str_replace_all(., "[ ]", "_")) %>% 
+  mutate(date = ymd(sample_collection_date), source="current") %>%
+  write_csv(paste0(here("data_downloads", paste0(Sys.Date(), "_sample_current.csv"))))
+
+raw_sample_arch23 <-
+  read_excel(path = "sample_arch23.xlsx", sheet = "Wastewater Testing Data") %>%
+  rename_all(~ str_to_lower(.)) %>%
+  rename_all( ~ str_replace_all(., "[ ]", "_")) %>% 
+  mutate(date = ymd(sample_collection_date), source="arch") %>%  
+  write_csv(paste0(here("data_downloads", paste0(Sys.Date(), "_sample_arch.csv"))))
+
+raw_sample_arch24 <-
+  read_excel(path = "sample_arch24.xlsx", sheet = "Wastewater Testing Data") %>%
+  rename_all(~ str_to_lower(.)) %>%
+  rename_all( ~ str_replace_all(., "[ ]", "_")) %>% 
+  mutate(date = ymd(sample_collection_date), source="arch") %>%  
+  write_csv(paste0(here("data_downloads", paste0(Sys.Date(), "_sample_arch.csv"))))
+
+weights <- read.csv("better_pop_weights_Aug2024.csv") %>%
+  select(-mgd) %>% rename(pop_weight = users) %>% 
+  mutate(pop_weight = as.numeric(pop_weight))
+
+wmass_counties <- c("Hampden", "Franklin", "Hampshire", "Berkshire")
+nvalley_counties <- c("Franklin", "Hampshire")
+svalley_counties <- c("Hampden", "Hampshire")
+berkshire <- "Berkshire"
+
+### Set time parameter
+time_years <- 1
+time_months <- time_years * 12
+
+### Prepare the data
+full_sample <-
+  # combine archive and current data
+  bind_rows(raw_sample_arch23 %>% 
+              filter(date < min(raw_sample_arch24$date)),
+            raw_sample_arch24 %>%
+              filter(date < min(raw_sample_current$date)),
+            raw_sample_current) %>% 
+              #select(-respiratory_season)) %>% 
+  # rename columns 
+  rename(
+    "avg_7d_covid_conc" = '7_day_average_of_sars-cov-2_concentration',
+    "county" = county_of_sampling_location,
+    "city_sample" = city_of_sampling_location,
+    "system" = name_of_sampling_location) %>%
+  # convert to copies / mL
+  mutate(avg_7d_covid_conc = avg_7d_covid_conc/1000) %>% 
+  # modify for log-scale axis display by adding small constant to zero values
+  mutate(avg_7d_covid_conc = ifelse(avg_7d_covid_conc == 0, .01, avg_7d_covid_conc)) %>%
+  # remove unused rows
+  select(-c(tester, site_type, 'units_(measuring_concentration)', state_of_sampling_location)) %>%
+  # reorganize columns
+  relocate(date) %>% relocate(city_sample, .after = date) %>% relocate(county, .after = date) %>%
+  # shift to uniform lower case
+  mutate(city_sample = str_to_lower(city_sample),
+         # create lowercase version of system for easy join to pop weights
+         weights_id = str_to_lower(system)) %>%
+  # add geographical groupings
+  mutate(
+    wmass = county %in% wmass_counties,
+    nvalley = county %in% nvalley_counties,
+    svalley = county %in% svalley_counties) %>%
+  # remove extraneous columns
+  select(date, county, system, avg_7d_covid_conc, weights_id, wmass, nvalley, svalley) %>%
+  # add population weights
+  left_join(weights, by = join_by(weights_id == system)) %>%
+  select(-weights_id) %>%
+  # calculate population-days as weights for loess fit
+  # first calculate reporting interval i.e. days til next report for that location
+  arrange(date, .by=system) %>%
+  mutate(
+    interval = ((lead(date, default = max(date)+ddays(1)))-date)/ddays(1), .by=system,
+    # interval multiplier floor is at 0.5 (for the max of 2 entries in a single day
+    # ceiling is at 7, so as to not over-weight systems that miss time
+    pop_day = pop_weight * (min(interval, 7) %>% max(0.5))) %>%
+  ## label runs between gaps for each system
+  group_by(system) %>%
+  mutate(
+    gap = if_else(date > dplyr::lag(date, default=lubridate::origin)+dweeks(2), 1, 0),
+    run=cumsum(gap),
+    gap=NULL,
+    smooth_group = paste0(system, "_", run)) %>% ungroup() %>%
+  arrange(system, date) 
+
+# save(full_sample, weights, file="current.Rda")
+
+wva_pal <- c("#49a667", "#b6c459", "#8fa1ef", "#fdae61", "#f45489")
+
+### -----
+
+### Load data ----
+# load("current.Rda")
+
+```
+
+
+```{r Prepare regional plot, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+# Generate smooth and wvas
+# smooth_operator automaticaly filters for western mass
+# we can customize that for future iterations
+dfreg <- smooth_operator(full_sample, time_years=1)
+thresholds_reg <- wtd_ww_threshold_breaks(dfreg$avg_7d_covid_conc, wts=dfreg$pop_day)
+
+```
+
+
+```{r Construct regional plot, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+### construct regional plot
+region <- 
+  dfreg %>%
+  ggplot() +
+  geom_hline(yintercept = thresholds_reg[2:5], color="grey50", linetype="dotted") +
+  geom_point(aes(date, avg_7d_covid_conc, size=pop_day, color=wva_point), alpha=.35) +
+  geom_line(aes(date,  y_smoothed, group=1), color="darkblue", linewidth=1.25) +
+  scale_y_log10(limits = c(10, 8000)) + 
+  scale_color_manual(values = wva_pal) +
+    labs(x = "Date",
+         y = "7-day COVID Concentration (copies/mL)",
+         color= "Wastewater Viral\nActivity Level") +
+    guides(color = guide_legend(reverse=TRUE, override.aes = list(alpha = 1)),
+           fill = guide_legend(reverse=TRUE),
+           size="none") +
+  mytheme()
+
+plot_title_reg <- ifelse(time_years == 1, 
+                     paste0("wma_wastewater_", max(dfreg$date), "_region",  ".tiff"), 
+                     paste0("wma_wastewater_", max(dfreg$date), "_region_", time_years, "YEAR.tiff"))
+
+width <- ifelse(time_years == 1, 2100, 3300)
+height <- 1900
+
+ggsave(region, path = here("plots/"), filename = plot_title_reg,
+       width = width, height = height, units = "px", bg="white")
+```
+Updates on Thursday evening, as long as new data is uploaded to the state dashboard (link below).<br>
+ 
+ <font size="5">Regional Concentration and Wastewater Viral Activity Level</font>
+```{r Display summary message, echo=FALSE, message=FALSE, warning=FALSE, comment=NA}
+subtitle <- paste0("From ", min(dfreg$date), " to ", max(dfreg$date),
+                   "\nCurrent WVA level: ",  dfreg %>% arrange(date) %>% pull(wva_lvl) %>%  last() %>% as.character(),
+                   "\nCurrent WVA score: ",  dfreg %>% arrange(date) %>% pull(wva_score) %>%  last() %>% as.character())
+cat(subtitle)
+```
+```{r Define sewer number, echo=FALSE, warning=FALSE, comment=NA}
+sewer_num <- length(dfreg %>% pull(system) %>% unique())
+```
+
+
+```{r Plot region, echo=FALSE, message=F, fig.height=4, fig.width=8, message=FALSE, warning=FALSE, fig.cap=sprintf("The above figure shows the regional wastewater COVID concentration and Wastewater Viral Activity level (WVA) for %d sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. WVA levels are relative to the previous %d months of data.", sewer_num, time_months)}
+plot(region)
+```
+<br>
+ <font size="5">County-level Concentration and Wastewater Viral Activity Level</font>
+```{r Prepare county plot, echo=FALSE, warning=FALSE}
+counties <- full_sample %>% filter(date > max(date) - years(time_years) & wmass) %>% pull(county) %>% unique()
+
+# create the data.frame to hold the county smooths
+dfcount <- data.frame(matrix(ncol = ncol(full_sample)))[-1,]
+colnames(dfcount) <- names(full_sample)
+summ <- data.frame(county = NA, note = NA)[-1,]
+# loop through counties
+for (i in seq_along(counties)){
+  # create smooths
+  temp <- smooth_operator(full_sample %>% filter(county == counties[i]), time_years=1)
+  dfcount <- rbind(dfcount, temp)
+  # create summary annotations
+  tempnote <- data.frame(county = counties[i], 
+                         note = paste0(max(temp$date),"\nWVA level: ",  temp %>% arrange(date) %>% pull(wva_lvl) %>%  last() %>% as.character(),"\nWVA score: ",  temp %>% arrange(date) %>% pull(wva_score) %>%  last() %>% as.character()))
+  summ <- rbind(summ, tempnote)
+  # create dataframe of thresholds to pass to hline
+}
+# add xy coordinates to annotations
+summ$x <- min(temp$date)
+summ$y <- 11
+
+#### county plot ----
+county_plot <-
+dfcount %>% 
+  ggplot() +
+  geom_point(aes(date, avg_7d_covid_conc, size=pop_day, color=wva_point), alpha=.35) +
+  geom_line(aes(date,  y_smoothed, group=1), color="darkblue", linewidth=1.15) +
+  scale_y_log10(limits = c(10, 8000)) + 
+  scale_color_manual(values = wva_pal) +
+  guides(color = guide_legend(reverse=TRUE, override.aes = list(alpha = 1)),
+         fill = guide_legend(reverse=TRUE),
+         size="none") +
+  labs(x = "Date",
+       y = "7-day COVID Concentration (copies/mL)",
+       color= "Wastewater Viral\nActivity Level") +
+  geom_label(data = summ,
+             aes(x=x, y=y, label = note), color="blue", hjust=0,vjust=0,
+             size=2.5) + 
+  mytheme() + # set the left align here +
+  theme(plot.title = element_text(size=12)) +
+  facet_wrap(~county, ncol=2)
+
+plot_title_count <- paste0("wma_wastewater_", max(dfreg$date), "_counties", ".tiff")
+width = 1992*1.25
+height = 1200*1.25
+
+ggsave(county_plot, path = here("plots/"), filename = plot_title_count,
+       width = width, height = height, units = "px", bg="white")
+
+```
+```{r Plot counties, echo=FALSE, fig.height=6.25, fig.width=10, message=FALSE, warning=FALSE, fig.cap = sprintf("The above figure shows county-level wastewater COVID concentration and Wastewater Viral Activity level (WVA) for %d sewer systems in Berkshire County (Pittsfield); Hampden County (S. Hadley, Springfield); Hampshire County (Amherst, Northampton), and Franklin County (Greenfield, Montague, S. Deerfield, Sunderland). WVA levels are relative to the previous %d months of data. Blue annotations show the date of most recent report and the current WVA level.", sewer_num, time_months)}
+plot(county_plot)
+```
+
+
+```{r Prepare Systems Plot, echo=FALSE, message=FALSE, warning=FALSE}
+smooth_groups <- full_sample %>% 
+  filter(date > max(date) - months(6) & wmass) %>% select(system, group=smooth_group) %>% unique()
+
+# create the data.frame to hold the system smooths
+dfsys <- data.frame(matrix(ncol = ncol(full_sample)))[-1,]
+colnames(dfsys) <- names(full_sample)
+summ_temp <- data.frame(max_date = NA, system = NA, smooth_group = NA, note = NA)[-1,]
+
+# loop through smooth_groups
+for (i in seq_along(smooth_groups$group)){
+  # create smooths
+  temp <- smooth_operator(full_sample %>% filter(date > max(date) - years(time_years)) %>% filter(smooth_group == smooth_groups$group[i]), time_years=1)
+  # add new smooth data to output
+  dfsys <- rbind(dfsys, temp)
+  # create summary annotations by system
+  tempnote <- data.frame(max_date = max(temp$date),
+                         system = smooth_groups$system[i], 
+                         smooth_group = smooth_groups$group[i],
+                         note = 
+                           paste0(max(temp$date),"\nWVA level: ",  
+                                  temp %>% arrange(date) %>% pull(wva_lvl) %>%  last() %>% as.character(),"\nWVA score: ",  temp %>% arrange(date) %>% pull(wva_score) %>%  last() %>% as.character()))
+  summ_temp <- rbind(summ_temp, tempnote)
+}
+# extract most recent system level information (discarding update from older runs)
+summ <- summ_temp %>% group_by(system) %>% slice_max(max_date, n=1)
+
+#add xy coordinates to annotations
+summ$x <- min(full_sample %>% 
+                filter(date > max(date) - years(time_years) & wmass) %>% pull(date))
+summ$y <- 11
+
+#### systems plot ----
+systems_plot <- 
+  dfsys %>% 
+  ggplot() +
+  geom_line(aes(date,  y_smoothed, group=smooth_group), color="darkblue", linewidth=1.1) +
+  geom_point(aes(date, avg_7d_covid_conc, color=wva_point), alpha=.35) +
+  scale_y_log10(limits = c(10, 8000)) + 
+  scale_color_manual(values = wva_pal) +
+  guides(color = guide_legend(reverse=TRUE, override.aes = list(alpha = 1)),
+         fill = guide_legend(reverse=TRUE),
+         size="none") +
+  labs(x = "Date",
+       y = "7-day COVID Concentration (copies/mL)",
+       color= "Wastewater Viral\nActivity Level") +
+  geom_label(data = summ,
+             aes(x=x, y=y, label = note), color="blue", hjust=0,vjust=0,
+             size=2.5) + 
+  mytheme() + 
+  theme(plot.title = element_text(size=12)) +
+  facet_wrap(~system, ncol=3) +
+    scale_x_date(date_labels = "%b\n%Y")
+```
+
+ <font size="5">Individual System Concentration and Wastewater Viral Activity Level</font>
+```{r Systems plot, echo=FALSE, message=FALSE, warning=FALSE, fig.height=7, fig.width=10, fig.cap = sprintf("The above figure shows reported concentration data and Wastewater Viral Activity level (WVA) from %d individual sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. WVA levels are relative to the previous %d months of data. Blue annotations show the date of most recent report and the current WVA level.", sewer_num, time_months)}
+plot(systems_plot)
+```
+<font size="3">**Technical Notes**</font>  
+• Wastewater Viral Activity levels are based on the CDC methodology linked below, with two differences: <br>(1) use of weighted statistics (median and standard deviation) to calculate thresholds, with population served and reporting interval as weights; and <br>(2) The baseline is updated each time the WVA is calculated, rather than every 6 months.<br> 
+• The WVA is relative to the previous 12 months of data and is calculated independently for each panel. Because of this, WVA thresholds may be different across panels. The y-axis (copies/mL) is fixed, but the WVA levels are relative.<br> 
+• The trend line is a smoothed conditional mean, specifically a Locally Estimated Scatterplot Smoother (or LOESS).<br>
+• All analysis and visualization is performed in R. Data and scripts are accessible in the github respository here: https://github.com/raughter/western-mass-covid. 
+
+
+ <font size="3">**Data Sources**</font>  
+• CDC methodology: https://www.cdc.gov/nwss/about-data.html#data-method  
+• Wastewater data access: https://www.mass.gov/info-details/wastewater-surveillance-reporting  
+• Population weights are from various sources (EPA estimates whenever available).  
+<br><br>
+**If you have the means, you can buy me a coffee here** https://ko-fi.com/raughter. <br>
+**You can find my writing here** https://cultureofhomecoming.substack.com/ <br>
+**Stay safe, y'all <3**
