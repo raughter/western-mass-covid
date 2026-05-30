@@ -28,10 +28,10 @@ jobs:
       - name: Install R packages
         run: |
           install.packages(c(
-            "rmarkdown", "knitr", "tidyverse", "here", "lubridate",
-            "ggthemes", "scales", "patchwork", "readxl",
+            "bslib", "fs", "knitr", "rmarkdown", "tidyverse", "here", 
+            "lubridate", "ggthemes", "scales", "patchwork", "readxl",
             "ggtext", "Hmisc", "htmlTable"
-          ), repos = "https://cloud.r-project.org")
+          ), repos = "https://cloud.r-project.org", dependencies = TRUE)
         shell: Rscript {0}
 
       - name: Render report
