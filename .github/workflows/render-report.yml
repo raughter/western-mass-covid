@@ -25,14 +25,6 @@ jobs:
             libfontconfig1-dev libharfbuzz-dev libfribidi-dev \
             libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
 
-      - name: Install R packages
-        run: |
-          install.packages(c(
-            "rmarkdown", "tidyverse", "here", "lubridate",
-            "ggthemes", "scales", "patchwork", "readxl",
-            "ggtext", "Hmisc"
-          ), repos = "https://cloud.r-project.org")
-        shell: Rscript {0}
 
       - name: Render report
         run: Rscript automate_report.R
