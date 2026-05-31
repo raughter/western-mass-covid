@@ -159,7 +159,7 @@ region <-
   geom_point(aes(date, avg_7d_covid_conc, size=pop_day, color=wva_point), alpha=.35) +
   geom_line(aes(date,  y_smoothed, group=1), color="darkblue", linewidth=1.25) +
   scale_y_log10() + 
-  #coord_cartesian(ylim = c(10, 8000)) +
+  coord_cartesian(ylim = c(1, 8000)) +
   scale_color_manual(values = wva_pal) +
     labs(x = "Date",
          y = "7-day COVID Concentration (copies/mL)",
@@ -227,7 +227,7 @@ dfcount %>%
   geom_point(aes(date, avg_7d_covid_conc, size=pop_day, color=wva_point), alpha=.35) +
   geom_line(aes(date,  y_smoothed, group=1), color="darkblue", linewidth=1.15) +
   scale_y_log10() + 
- #coord_cartesian(ylim = c(10, 8000)) +  
+ coord_cartesian(ylim = c(1, 8000)) +  
   scale_color_manual(values = wva_pal) +
   guides(color = guide_legend(reverse=TRUE, override.aes = list(alpha = 1)),
          fill = guide_legend(reverse=TRUE),
@@ -250,7 +250,7 @@ ggsave(county_plot, path = here("plots/"), filename = plot_title_count,
        width = width, height = height, units = "px", bg="white")
 
 ```
-```{r Plot counties, echo=FALSE, fig.height=6.25, fig.width=10, message=FALSE, warning=FALSE, fig.cap = sprintf("The above figure shows county-level wastewater COVID concentration and Wastewater Viral Activity level (WVA) for %d sewer systems in Berkshire County (Pittsfield); Hampden County (Springfield); Hampshire County (Amherst, Northampton), and Franklin County (Greenfield, Montague, S. Deerfield, Sunderland). Concentrations below 10 copies/mL are cropped out to make the figures easier to read. WVA levels are relative to the previous %d months of data. Blue annotations show the date of most recent report and the current WVA level.", sewer_num, time_months)}
+```{r Plot counties, echo=FALSE, fig.height=6.25, fig.width=10, message=FALSE, warning=FALSE, fig.cap = sprintf("The above figure shows county-level wastewater COVID concentration and Wastewater Viral Activity level (WVA) for %d sewer systems in Berkshire County (Pittsfield); Hampden County (Springfield); Hampshire County (Amherst, Northampton), and Franklin County (Greenfield, Montague, S. Deerfield, Sunderland). Concentrations below 1 copies/mL are cropped out to make the figures easier to read. WVA levels are relative to the previous %d months of data. Blue annotations show the date of most recent report and the current WVA level.", sewer_num, time_months)}
 plot(county_plot)
 ```
 
@@ -321,7 +321,7 @@ systems_plot <-
   geom_line(aes(date,  y_smoothed, group=smooth_group), color="darkblue", linewidth=1.1) +
   geom_point(aes(date, avg_7d_covid_conc, color=wva_point), alpha=.35) +
   scale_y_log10() + 
-  #coord_cartesian(ylim = c(10, 8000)) +  
+  coord_cartesian(ylim = c(1, 8000)) +  
   scale_color_manual(values = wva_pal) +
   guides(color = guide_legend(reverse=TRUE, override.aes = list(alpha = 1)),
          fill = guide_legend(reverse=TRUE),
@@ -348,7 +348,7 @@ ggsave(systems_plot, path = here("plots/"), filename = plot_title_syst,
 ```
 
  <font size="5">Individual System Concentration and Wastewater Viral Activity Level</font>
-```{r Systems plot, echo=FALSE, message=FALSE, warning=FALSE, fig.height=7, fig.width=10, fig.cap = sprintf("The above figure shows reported concentration data and Wastewater Viral Activity level (WVA) from %d individual sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. Concentrations below 10 copies/mL are cropped out to make the figures easier to read. WVA levels are relative to the previous %d months of data. Blue annotations show the date of most recent report and the current WVA level.", sewer_num, time_months)}
+```{r Systems plot, echo=FALSE, message=FALSE, warning=FALSE, fig.height=7, fig.width=10, fig.cap = sprintf("The above figure shows reported concentration data and Wastewater Viral Activity level (WVA) from %d individual sewer systems in Berkshire, Hampden, Hampshire, and Franklin counties. Concentrations below 1 copies/mL are cropped out to make the figures easier to read. WVA levels are relative to the previous %d months of data. Blue annotations show the date of most recent report and the current WVA level.", sewer_num, time_months)}
 plot(systems_plot)
 ```
 <font size="3">**Technical Notes**</font>  
