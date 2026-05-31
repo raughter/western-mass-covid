@@ -2,8 +2,8 @@ name: Render Wastewater Report
 
 on:
   schedule:
-    - cron: '0 2 * * 5'  # Every Friday at 2am UTC (Thursday 10pm ET)
-  workflow_dispatch:       # Also allows manual triggering
+    - cron: '0 23 * * 4'  # Every Thursday at 11pm UTC (6pm ET, accounting for EST UTC-5)
+  workflow_dispatch:
 
 jobs:
   render:
@@ -17,6 +17,14 @@ jobs:
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: '4.4.0'
+
+      - name: Cache R packages
+        uses: actions/cache@v3
+        with:
+          path: /home/runner/work/_temp/Library
+          key: ${{ runner.os }}-r-${{ hashFiles('**/render-report.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-r-
 
       - name: Install system dependencies
         run: |
@@ -32,11 +40,12 @@ jobs:
             "sass", "jquerylib", "cachem", "memoise", "rappdirs",
             "bslib", "fs", "htmltools", "knitr", "rmarkdown",
             "here", "lubridate", "readxl", "ggthemes", "scales",
-            "patchwork", "ggtext", "htmlwidgets", "htmlTable", "Hmisc",
+            "patchwork", "ggtext", "htmlTable", "Hmisc", "htmlwidgets",
             "dplyr", "tidyr", "ggplot2", "purrr", "stringr",
             "forcats", "tibble", "readr"
           )
-          install.packages(pkgs, repos = "https://cloud.r-project.org")
+          new_pkgs <- pkgs[!(pkgs %in% installed.packages()[,"Package"])]
+          if(length(new_pkgs)) install.packages(new_pkgs, repos = "https://cloud.r-project.org")
         shell: Rscript {0}
 
       - name: Render report
