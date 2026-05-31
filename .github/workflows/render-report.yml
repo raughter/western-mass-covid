@@ -31,7 +31,7 @@ jobs:
             "sass", "jquerylib", "cachem", "memoise", "rappdirs",
             "bslib", "fs", "htmltools", "knitr", "rmarkdown",
             "here", "lubridate", "readxl", "ggthemes", "scales",
-            "patchwork", "ggtext", "htmlTable", "Hmisc",
+            "patchwork", "ggtext", "htmlwidgets", "htmlTable", "Hmisc",
             "dplyr", "tidyr", "ggplot2", "purrr", "stringr",
             "forcats", "tibble", "readr"
           )
