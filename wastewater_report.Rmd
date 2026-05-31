@@ -218,7 +218,7 @@ for (i in seq_along(counties)){
 }
 # add xy coordinates to annotations
 summ$x <- min(temp$date)
-summ$y <- 11
+summ$y <- 2
 
 #### county plot ----
 county_plot <-
@@ -312,7 +312,7 @@ summ <- summ_temp %>% group_by(system) %>% slice_max(max_date, n=1)
 #add xy coordinates to annotations
 summ$x <- min(full_sample %>% 
                 filter(date > max(date) - years(time_years) & wmass) %>% pull(date))
-summ$y <- 11
+summ$y <- 2
 
 #### systems plot ----
 systems_plot <- 
