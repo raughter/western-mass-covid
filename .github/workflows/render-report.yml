@@ -27,11 +27,15 @@ jobs:
 
       - name: Install R packages
         run: |
-          install.packages(c(
-            "bslib", "fs", "knitr", "rmarkdown", "tidyverse", "here", 
-            "lubridate", "ggthemes", "scales", "patchwork", "readxl",
-            "ggtext", "Hmisc", "htmlTable"
-          ), repos = "https://cloud.r-project.org", dependencies = TRUE)
+          pkgs <- c(
+            "sass", "jquerylib", "cachem", "memoise", "rappdirs",
+            "bslib", "fs", "htmltools", "knitr", "rmarkdown",
+            "here", "lubridate", "readxl", "ggthemes", "scales",
+            "patchwork", "ggtext", "htmlTable", "Hmisc",
+            "dplyr", "tidyr", "ggplot2", "purrr", "stringr",
+            "forcats", "tibble", "readr"
+          )
+          install.packages(pkgs, repos = "https://cloud.r-project.org")
         shell: Rscript {0}
 
       - name: Render report
