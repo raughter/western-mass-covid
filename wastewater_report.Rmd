@@ -159,7 +159,7 @@ region <-
   geom_point(aes(date, avg_7d_covid_conc, size=pop_day, color=wva_point), alpha=.35) +
   geom_line(aes(date,  y_smoothed, group=1), color="darkblue", linewidth=1.25) +
   scale_y_log10() + 
-  coord_cartesian(ylim = c(10, 8000)) +
+  #coord_cartesian(ylim = c(10, 8000)) +
   scale_color_manual(values = wva_pal) +
     labs(x = "Date",
          y = "7-day COVID Concentration (copies/mL)",
@@ -227,7 +227,7 @@ dfcount %>%
   geom_point(aes(date, avg_7d_covid_conc, size=pop_day, color=wva_point), alpha=.35) +
   geom_line(aes(date,  y_smoothed, group=1), color="darkblue", linewidth=1.15) +
   scale_y_log10() + 
-  coord_cartesian(ylim = c(10, 8000)) +  
+ #coord_cartesian(ylim = c(10, 8000)) +  
   scale_color_manual(values = wva_pal) +
   guides(color = guide_legend(reverse=TRUE, override.aes = list(alpha = 1)),
          fill = guide_legend(reverse=TRUE),
@@ -321,7 +321,7 @@ systems_plot <-
   geom_line(aes(date,  y_smoothed, group=smooth_group), color="darkblue", linewidth=1.1) +
   geom_point(aes(date, avg_7d_covid_conc, color=wva_point), alpha=.35) +
   scale_y_log10() + 
-  coord_cartesian(ylim = c(10, 8000)) +  
+  #coord_cartesian(ylim = c(10, 8000)) +  
   scale_color_manual(values = wva_pal) +
   guides(color = guide_legend(reverse=TRUE, override.aes = list(alpha = 1)),
          fill = guide_legend(reverse=TRUE),
