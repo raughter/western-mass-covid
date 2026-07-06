@@ -2,13 +2,12 @@ name: Render Wastewater Report
 
 on:
   schedule:
-    - cron: '0 23 * * 4'  # Every Thursday at 11pm UTC (6pm ET, accounting for EST UTC-5)
+    - cron: '0 23 * * 4'
   workflow_dispatch:
 
 jobs:
   render:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -51,6 +50,8 @@ jobs:
       - name: Render report
         run: Rscript automate_report.R
 
+      # (optional) commit the generated file back to the repo
+      # If you don't need the file committed, you can remove these lines.
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
@@ -59,3 +60,17 @@ jobs:
           git add archive/ --force
           git diff --staged --quiet || git commit -m "Automated wastewater report update"
           git push
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # point this at the folder that contains the site to deploy
+          path: docs
+  deploy:
+    needs: render
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v5
