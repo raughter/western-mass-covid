@@ -62,7 +62,7 @@ jobs:
           git push
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           # point this at the folder that contains the site to deploy
           path: docs
